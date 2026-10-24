@@ -54,6 +54,33 @@ currently published.
   sessions, with paused rendering/audio/timers and a return notification.
 - **343 cached shader requests:** includes 14 additions from Decepticon Chapter 1 testing.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="docs/images/screenshots/robot-gameplay.jpg"><img src="docs/images/screenshots/robot-gameplay.jpg" alt="Bumblebee in robot form with Android touch controls" width="420" /></a><br />
+      <sub>Robot gameplay</sub>
+    </td>
+    <td align="center">
+      <a href="docs/images/screenshots/robot-combat.jpg"><img src="docs/images/screenshots/robot-combat.jpg" alt="Robot combat with the Guns, Rocket, Melee and Block controls" width="420" /></a><br />
+      <sub>Robot combat</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="docs/images/screenshots/vehicle-gameplay.jpg"><img src="docs/images/screenshots/vehicle-gameplay.jpg" alt="Bumblebee in vehicle form with steering pads and gas and brake pedals" width="420" /></a><br />
+      <sub>Vehicle gameplay</sub>
+    </td>
+    <td align="center">
+      <a href="docs/images/screenshots/mission-menu.jpg"><img src="docs/images/screenshots/mission-menu.jpg" alt="Mission briefing with the menu direction pad, Back and Enter buttons" width="420" /></a><br />
+      <sub>Mission menu</sub>
+    </td>
+  </tr>
+</table>
+
+*Android gameplay screenshots. Click an image to view it at full size.*
+
 ## Current results
 
 | Area | Observed result |
@@ -68,12 +95,20 @@ Physical testing has used a **POCO F3 / M2012K11AG, Android 13, Adreno 650**.
 Frame rate varies with scene complexity and device conditions. A constant frame
 rate and complete campaign compatibility are not guaranteed.
 
-## Control layout guide
+## Controls
 
-<img src="docs/images/control-layouts.svg" alt="Menu, robot and vehicle control position diagrams" width="900" />
-
-*Schematic exported from the touch-control model, not a gameplay screenshot.*
 See [all control bindings](docs/CONTROLS.md).
+
+<details>
+<summary>View the control layout guide</summary>
+
+<p align="center">
+  <a href="docs/images/control-layouts.svg"><img src="docs/images/control-layouts.svg" alt="Menu, robot and vehicle control position diagrams" width="360" /></a>
+</p>
+
+*Schematic exported from the touch-control model. Click to view at full size.*
+
+</details>
 
 ## Requirements
 
