@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1710" viewBox="0 0 1040 1710" role="img"><title>Touch control positions — schematic, not a gameplay screenshot</title>
+<rect width="1040" height="1710" fill="#0b1321"/>
+<text x="45" y="36" fill="#eff6ff" font-size="25" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="start" dominant-baseline="middle">TOUCH CONTROL LAYOUTS</text>
+<text x="45" y="72" fill="#94b0c8" font-size="15" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">Position guide from v0.5.17. Diagram only; no game imagery.</text>
+<rect x="25" y="110" width="990" height="505" rx="18" fill="#111f31" stroke="#2b4058" stroke-width="1.6"/>
+<text x="48" y="138" fill="#69d5e7" font-size="19" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="start" dominant-baseline="middle">MENU</text>
+<text x="245" y="138" fill="#9bb7ca" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">Direction pads, Backspace and Enter</text>
+<circle cx="817" cy="215.8" r="26.4" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="817" y="215.8" fill="#edf6fa" font-size="9.504" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">...</text>
+<rect x="227.4" y="355.5" width="66" height="59.4" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="260.4" y="385.2" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">UP</text>
+<rect x="227.4" y="491.9" width="66" height="59.4" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="260.4" y="521.6" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">DOWN</text>
+<rect x="130.6" y="423.7" width="74.8" height="59.4" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="168" y="453.4" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">LEFT</text>
+<rect x="315.4" y="423.7" width="74.8" height="59.4" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="352.8" y="453.4" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">RIGHT</text>
+<rect x="753.2" y="413.8" width="127.6" height="96.8" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="817" y="462.2" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">ENTER</text>
+<rect x="753.2" y="321.4" width="127.6" height="61.6" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="817" y="352.2" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">BACK</text>
+<circle cx="902.8" cy="215.8" r="33" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="902.8" y="215.8" fill="#edf6fa" font-size="11.88" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">EXIT</text>
+<rect x="25" y="635" width="990" height="505" rx="18" fill="#111f31" stroke="#2b4058" stroke-width="1.6"/>
+<text x="48" y="663" fill="#69d5e7" font-size="19" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="start" dominant-baseline="middle">ROBOT</text>
+<text x="245" y="663" fill="#9bb7ca" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">Movement stick and right-side combat actions</text>
+<circle cx="935.8" cy="740.8" r="26.4" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="935.8" y="740.8" fill="#edf6fa" font-size="9.504" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">...</text>
+<circle cx="106.4" cy="734.2" r="29.7" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="106.4" y="734.2" fill="#edf6fa" font-size="10.692" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">PAUSE</text>
+<circle cx="115.2" cy="850.8" r="33" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="115.2" y="850.8" fill="#edf6fa" font-size="9.5" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">TRANSFORM</text>
+<circle cx="229.6" cy="996" r="74.8" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<circle cx="229.6" cy="996" r="26.18" fill="#4c748a"/>
+<text x="229.6" y="1084.8" fill="#aac9da" font-size="11" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">MOVE</text>
+<circle cx="218.6" cy="850.8" r="33" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="218.6" y="850.8" fill="#edf6fa" font-size="11.88" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">LOCK</text>
+<circle cx="810.4" cy="1009.2" r="44" fill="#4b3e32" stroke="#83aabb" stroke-width="1.6"/>
+<text x="810.4" y="1009.2" fill="#edf6fa" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">MELEE</text>
+<circle cx="918.2" cy="1013.6" r="29.7" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="918.2" y="1013.6" fill="#edf6fa" font-size="10.692" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">BLOCK</text>
+<circle cx="676.2" cy="1040" r="31.9" fill="#4b3e32" stroke="#83aabb" stroke-width="1.6"/>
+<text x="676.2" y="1040" fill="#edf6fa" font-size="11.484" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">GUNS</text>
+<circle cx="713.6" cy="952" r="31.9" fill="#4b3e32" stroke="#83aabb" stroke-width="1.6"/>
+<text x="713.6" y="952" fill="#edf6fa" font-size="11.484" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">ROCKET</text>
+<circle cx="889.6" cy="894.8" r="31.9" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="889.6" y="894.8" fill="#edf6fa" font-size="11.484" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">JUMP</text>
+<circle cx="797.2" cy="908" r="31.9" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="797.2" y="908" fill="#edf6fa" font-size="9.5" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">PICK UP</text>
+<rect x="25" y="1160" width="990" height="505" rx="18" fill="#111f31" stroke="#2b4058" stroke-width="1.6"/>
+<text x="48" y="1188" fill="#69d5e7" font-size="19" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="start" dominant-baseline="middle">VEHICLE</text>
+<text x="245" y="1188" fill="#9bb7ca" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">Independent steering pads, Boost and pedals</text>
+<circle cx="935.8" cy="1265.8" r="26.4" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="935.8" y="1265.8" fill="#edf6fa" font-size="9.504" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">...</text>
+<circle cx="106.4" cy="1259.2" r="29.7" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="106.4" y="1259.2" fill="#edf6fa" font-size="10.692" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">PAUSE</text>
+<circle cx="157" cy="1367" r="33" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="157" y="1367" fill="#edf6fa" font-size="9.5" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">TRANSFORM</text>
+<rect x="137.2" y="1436.3" width="246.4" height="55" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="260.4" y="1463.8" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">BOOST</text>
+<rect x="141.6" y="1512.2" width="105.6" height="79.2" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="194.4" y="1551.8" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">LEFT</text>
+<rect x="273.6" y="1512.2" width="105.6" height="79.2" rx="10" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="326.4" y="1551.8" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">RIGHT</text>
+<circle cx="898.4" cy="1367" r="33" fill="#4b3e32" stroke="#83aabb" stroke-width="1.6"/>
+<text x="898.4" y="1367" fill="#edf6fa" font-size="11.88" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">GUNS</text>
+<circle cx="806" cy="1367" r="33" fill="#4b3e32" stroke="#83aabb" stroke-width="1.6"/>
+<text x="806" y="1367" fill="#edf6fa" font-size="11.88" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">ROCKET</text>
+<rect x="843.4" y="1490.2" width="88" height="96.8" rx="10" fill="#24563c" stroke="#83aabb" stroke-width="1.6"/>
+<text x="887.4" y="1538.6" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">GAS</text>
+<rect x="713.6" y="1490.2" width="88" height="96.8" rx="10" fill="#5c3036" stroke="#83aabb" stroke-width="1.6"/>
+<text x="757.6" y="1538.6" fill="#edf6fa" font-size="13" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">BRAKE</text>
+<circle cx="647.6" cy="1551.8" r="27.5" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="647.6" y="1551.8" fill="#edf6fa" font-size="9.5" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">H-BRAKE</text>
+<circle cx="260.4" cy="1367" r="27.5" fill="#203c4a" stroke="#83aabb" stroke-width="1.6"/>
+<text x="260.4" y="1367" fill="#edf6fa" font-size="9.9" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">HORN</text>
+<text x="520" y="1683" fill="#8fabc4" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="middle" dominant-baseline="middle">Layouts follow game state automatically. Source game files are required.</text>
+</svg>

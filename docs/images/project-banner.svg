@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img"><title>Transformers: The Game — Recompiled, Android playable preview</title>
+<rect width="1280" height="360" fill="#0b1321"/>
+<rect x="0" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="80" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="160" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="240" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="320" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="400" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="480" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="560" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="640" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="720" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="800" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="880" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="960" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="1040" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="1120" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="1200" y="0" width="1" height="360" rx="0" fill="#112136"/>
+<rect x="0" y="0" width="1280" height="1" rx="0" fill="#112136"/>
+<rect x="0" y="80" width="1280" height="1" rx="0" fill="#112136"/>
+<rect x="0" y="160" width="1280" height="1" rx="0" fill="#112136"/>
+<rect x="0" y="240" width="1280" height="1" rx="0" fill="#112136"/>
+<rect x="0" y="320" width="1280" height="1" rx="0" fill="#112136"/>
+<rect x="38" y="38" width="1204" height="284" rx="24" fill="#101d30" stroke="#28405a" stroke-width="1.6"/>
+<rect x="70" y="86" width="152" height="166" rx="20" fill="#132f42" stroke="#4dc4de" stroke-width="1.6"/>
+<text x="146" y="153" fill="#f3f8ff" font-size="65" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">TF</text>
+<text x="146" y="219" fill="#6ed7ea" font-size="14" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">RECOMPILED</text>
+<text x="262" y="115" fill="#f2f7ff" font-size="67" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="start" dominant-baseline="middle">TRANSFORMERS</text>
+<text x="267" y="185" fill="#9fc4df" font-size="26" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">THE GAME  /  ANDROID RECOMPILATION</text>
+<rect x="267" y="232" width="272" height="44" rx="12" fill="#214d5d"/>
+<text x="403" y="254" fill="#93e7ee" font-size="17" font-family="Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle" dominant-baseline="middle">PLAYABLE PROTOTYPE</text>
+<text x="565" y="254" fill="#d9a169" font-size="17" font-family="Segoe UI,Arial,sans-serif" font-weight="400" text-anchor="start" dominant-baseline="middle">v0.5.17  ·  ANDROID 10+  ·  DXVK / VULKAN</text>
+</svg>

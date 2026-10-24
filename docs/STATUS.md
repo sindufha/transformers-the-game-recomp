@@ -2,6 +2,11 @@
 
 **Development snapshot: v0.5.17 — October 24, 2026**
 
+[Download the Android preview](https://github.com/sindufha/transformers-the-game-recomp/releases/tag/v0.5.17).
+ARM64, ARMv7, and universal packages are provided with checksums, build
+information, and third-party notices. All retain the verified build's runtime
+content and certificate; only ARM64 has physical-device gameplay evidence.
+
 | Component | Current result |
 | --- | --- |
 | Recompilation | A native Android runtime has been built from the supported PC x86 input. |

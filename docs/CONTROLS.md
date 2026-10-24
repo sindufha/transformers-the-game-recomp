@@ -4,6 +4,11 @@ The overlay automatically follows menus, robot form, and vehicle form. Robot
 movement uses a circular stick; vehicles use separate steering pads and pedals.
 Empty space on the right is available for camera drag.
 
+![Menu, robot and vehicle control positions](images/control-layouts.svg)
+
+*Schematic position guide, not a gameplay screenshot. The APK uses its touch
+overlay's icons and styling.*
+
 ## Menus
 
 | Button | Original input |
