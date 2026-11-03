@@ -1,0 +1,13 @@
+{
+  "request_sha256": "df1ba867ee6d8b1db41ef271ab89496ceadfa4faeb95c1c7065ec0a974d50339",
+  "shader_sha256": "bc40761eea09599cfbadf8a34febb55ae924411c3a401b4a0416ba41aee32512",
+  "constant_sha256": "1c2764d8f81706519cf267a7b394c12a4e1ebfc5e58b0690f8c3ef6a3c50a9f4",
+  "compiler": "C:\\WINDOWS\\System32\\d3dx9_31.dll",
+  "compiler_sha256": "84167b7df7e97c63f0cc15c1d272cdc7bba942f6f36a8801aec9840825891d0d",
+  "entry": "vertexProgram",
+  "profile": "vs_3_0",
+  "flags": 512,
+  "shader_bytes": 920,
+  "constant_bytes": 232,
+  "diagnostics": ""
+}

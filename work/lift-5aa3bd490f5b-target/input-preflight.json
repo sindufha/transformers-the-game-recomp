@@ -1,0 +1,973 @@
+{
+  "schema_version": 1,
+  "executable": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\Transformers.exe",
+  "sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "file_size": 3702784,
+  "machine": "0x014c",
+  "format": "PE32",
+  "image_base": "0x00400000",
+  "entry_va": "0x00666ead",
+  "entry_section": ".text",
+  "image_size": 42872780,
+  "overlay_size": 0,
+  "relocation_directory": {
+    "rva": 0,
+    "size": 0
+  },
+  "tls_directory": {
+    "rva": 0,
+    "size": 0
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "va": "0x00401000",
+      "virtual_size": 2600764,
+      "raw_offset": 4096,
+      "raw_size": 2600960,
+      "entropy": 6.622498,
+      "executable": true,
+      "writable": false
+    },
+    {
+      "name": ".rdata",
+      "va": "0x0067c000",
+      "virtual_size": 225833,
+      "raw_offset": 2605056,
+      "raw_size": 229376,
+      "entropy": 5.767073,
+      "executable": false,
+      "writable": false
+    },
+    {
+      "name": ".data",
+      "va": "0x006b4000",
+      "virtual_size": 39436216,
+      "raw_offset": 2834432,
+      "raw_size": 266240,
+      "entropy": 5.402074,
+      "executable": false,
+      "writable": true
+    },
+    {
+      "name": ".shr",
+      "va": "0x02c50000",
+      "virtual_size": 4,
+      "raw_offset": 3100672,
+      "raw_size": 4096,
+      "entropy": -0.0,
+      "executable": false,
+      "writable": true
+    },
+    {
+      "name": ".rsrc",
+      "va": "0x02c51000",
+      "virtual_size": 254702,
+      "raw_offset": 3104768,
+      "raw_size": 258048,
+      "entropy": 7.673964,
+      "executable": false,
+      "writable": false
+    },
+    {
+      "name": "        ",
+      "va": "0x02c90000",
+      "virtual_size": 339916,
+      "raw_offset": 3362816,
+      "raw_size": 339968,
+      "entropy": 4.289062,
+      "executable": false,
+      "writable": false
+    }
+  ],
+  "import_count": 189,
+  "imports": [
+    {
+      "dll": "WS2_32.dll",
+      "symbols": [
+        {
+          "ordinal": 9,
+          "iat_va": "0x0067c250"
+        },
+        {
+          "ordinal": 14,
+          "iat_va": "0x0067c254"
+        },
+        {
+          "ordinal": 15,
+          "iat_va": "0x0067c258"
+        },
+        {
+          "ordinal": 8,
+          "iat_va": "0x0067c25c"
+        },
+        {
+          "ordinal": 115,
+          "iat_va": "0x0067c260"
+        },
+        {
+          "ordinal": 23,
+          "iat_va": "0x0067c264"
+        },
+        {
+          "ordinal": 10,
+          "iat_va": "0x0067c268"
+        },
+        {
+          "ordinal": 21,
+          "iat_va": "0x0067c26c"
+        },
+        {
+          "ordinal": 7,
+          "iat_va": "0x0067c270"
+        },
+        {
+          "ordinal": 4,
+          "iat_va": "0x0067c274"
+        },
+        {
+          "ordinal": 16,
+          "iat_va": "0x0067c278"
+        },
+        {
+          "ordinal": 19,
+          "iat_va": "0x0067c27c"
+        },
+        {
+          "ordinal": 18,
+          "iat_va": "0x0067c280"
+        },
+        {
+          "ordinal": 3,
+          "iat_va": "0x0067c284"
+        },
+        {
+          "ordinal": 116,
+          "iat_va": "0x0067c288"
+        },
+        {
+          "ordinal": 51,
+          "iat_va": "0x0067c28c"
+        },
+        {
+          "ordinal": 55,
+          "iat_va": "0x0067c290"
+        },
+        {
+          "ordinal": 12,
+          "iat_va": "0x0067c294"
+        },
+        {
+          "ordinal": 52,
+          "iat_va": "0x0067c298"
+        },
+        {
+          "ordinal": 111,
+          "iat_va": "0x0067c29c"
+        },
+        {
+          "ordinal": 11,
+          "iat_va": "0x0067c2a0"
+        },
+        {
+          "ordinal": 56,
+          "iat_va": "0x0067c2a4"
+        }
+      ]
+    },
+    {
+      "dll": "RPCRT4.dll",
+      "symbols": [
+        {
+          "name": "RpcStringFreeA",
+          "iat_va": "0x0067c1d0"
+        },
+        {
+          "name": "UuidToStringA",
+          "iat_va": "0x0067c1d4"
+        }
+      ]
+    },
+    {
+      "dll": "KERNEL32.dll",
+      "symbols": [
+        {
+          "name": "GetStringTypeW",
+          "iat_va": "0x0067c034"
+        },
+        {
+          "name": "GetStringTypeA",
+          "iat_va": "0x0067c038"
+        },
+        {
+          "name": "GetSystemInfo",
+          "iat_va": "0x0067c03c"
+        },
+        {
+          "name": "VirtualProtect",
+          "iat_va": "0x0067c040"
+        },
+        {
+          "name": "GetLocaleInfoA",
+          "iat_va": "0x0067c044"
+        },
+        {
+          "name": "GetCPInfo",
+          "iat_va": "0x0067c048"
+        },
+        {
+          "name": "GetOEMCP",
+          "iat_va": "0x0067c04c"
+        },
+        {
+          "name": "GetACP",
+          "iat_va": "0x0067c050"
+        },
+        {
+          "name": "IsBadCodePtr",
+          "iat_va": "0x0067c054"
+        },
+        {
+          "name": "IsBadReadPtr",
+          "iat_va": "0x0067c058"
+        },
+        {
+          "name": "VirtualQuery",
+          "iat_va": "0x0067c05c"
+        },
+        {
+          "name": "InterlockedExchange",
+          "iat_va": "0x0067c060"
+        },
+        {
+          "name": "SetFilePointer",
+          "iat_va": "0x0067c064"
+        },
+        {
+          "name": "Sleep",
+          "iat_va": "0x0067c068"
+        },
+        {
+          "name": "SetCurrentDirectoryA",
+          "iat_va": "0x0067c06c"
+        },
+        {
+          "name": "SetStdHandle",
+          "iat_va": "0x0067c070"
+        },
+        {
+          "name": "GetModuleHandleA",
+          "iat_va": "0x0067c074"
+        },
+        {
+          "name": "GetTickCount",
+          "iat_va": "0x0067c078"
+        },
+        {
+          "name": "FreeLibrary",
+          "iat_va": "0x0067c07c"
+        },
+        {
+          "name": "GetProcAddress",
+          "iat_va": "0x0067c080"
+        },
+        {
+          "name": "LoadLibraryA",
+          "iat_va": "0x0067c084"
+        },
+        {
+          "name": "GetVersionExA",
+          "iat_va": "0x0067c088"
+        },
+        {
+          "name": "SetEnvironmentVariableA",
+          "iat_va": "0x0067c08c"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iat_va": "0x0067c090"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "iat_va": "0x0067c094"
+        },
+        {
+          "name": "TryEnterCriticalSection",
+          "iat_va": "0x0067c098"
+        },
+        {
+          "name": "CompareStringA",
+          "iat_va": "0x0067c09c"
+        },
+        {
+          "name": "CloseHandle",
+          "iat_va": "0x0067c0a0"
+        },
+        {
+          "name": "ResumeThread",
+          "iat_va": "0x0067c0a4"
+        },
+        {
+          "name": "CreateThread",
+          "iat_va": "0x0067c0a8"
+        },
+        {
+          "name": "GetSystemDirectoryA",
+          "iat_va": "0x0067c0ac"
+        },
+        {
+          "name": "GetModuleFileNameA",
+          "iat_va": "0x0067c0b0"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iat_va": "0x0067c0b4"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iat_va": "0x0067c0b8"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iat_va": "0x0067c0bc"
+        },
+        {
+          "name": "LCMapStringW",
+          "iat_va": "0x0067c0c0"
+        },
+        {
+          "name": "LCMapStringA",
+          "iat_va": "0x0067c0c4"
+        },
+        {
+          "name": "GetTimeZoneInformation",
+          "iat_va": "0x0067c0c8"
+        },
+        {
+          "name": "IsBadWritePtr",
+          "iat_va": "0x0067c0cc"
+        },
+        {
+          "name": "VirtualAlloc",
+          "iat_va": "0x0067c0d0"
+        },
+        {
+          "name": "VirtualFree",
+          "iat_va": "0x0067c0d4"
+        },
+        {
+          "name": "HeapCreate",
+          "iat_va": "0x0067c0d8"
+        },
+        {
+          "name": "HeapDestroy",
+          "iat_va": "0x0067c0dc"
+        },
+        {
+          "name": "GetFileType",
+          "iat_va": "0x0067c0e0"
+        },
+        {
+          "name": "SetHandleCount",
+          "iat_va": "0x0067c0e4"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "iat_va": "0x0067c0e8"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iat_va": "0x0067c0ec"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "iat_va": "0x0067c0f0"
+        },
+        {
+          "name": "GetEnvironmentStrings",
+          "iat_va": "0x0067c0f4"
+        },
+        {
+          "name": "FreeEnvironmentStringsA",
+          "iat_va": "0x0067c0f8"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iat_va": "0x0067c0fc"
+        },
+        {
+          "name": "GetStdHandle",
+          "iat_va": "0x0067c100"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iat_va": "0x0067c104"
+        },
+        {
+          "name": "CompareStringW",
+          "iat_va": "0x0067c108"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "iat_va": "0x0067c10c"
+        },
+        {
+          "name": "GetFileAttributesA",
+          "iat_va": "0x0067c110"
+        },
+        {
+          "name": "HeapSize",
+          "iat_va": "0x0067c114"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iat_va": "0x0067c118"
+        },
+        {
+          "name": "RaiseException",
+          "iat_va": "0x0067c11c"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iat_va": "0x0067c120"
+        },
+        {
+          "name": "HeapReAlloc",
+          "iat_va": "0x0067c124"
+        },
+        {
+          "name": "HeapFree",
+          "iat_va": "0x0067c128"
+        },
+        {
+          "name": "HeapAlloc",
+          "iat_va": "0x0067c12c"
+        },
+        {
+          "name": "GetCommandLineA",
+          "iat_va": "0x0067c130"
+        },
+        {
+          "name": "GetStartupInfoA",
+          "iat_va": "0x0067c134"
+        },
+        {
+          "name": "TerminateProcess",
+          "iat_va": "0x0067c138"
+        },
+        {
+          "name": "RtlUnwind",
+          "iat_va": "0x0067c13c"
+        },
+        {
+          "name": "ExitProcess",
+          "iat_va": "0x0067c140"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iat_va": "0x0067c144"
+        },
+        {
+          "name": "GetProcessAffinityMask",
+          "iat_va": "0x0067c148"
+        },
+        {
+          "name": "SetProcessAffinityMask",
+          "iat_va": "0x0067c14c"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "iat_va": "0x0067c150"
+        },
+        {
+          "name": "SetThreadPriority",
+          "iat_va": "0x0067c154"
+        },
+        {
+          "name": "CreateEventA",
+          "iat_va": "0x0067c158"
+        },
+        {
+          "name": "SetEvent",
+          "iat_va": "0x0067c15c"
+        },
+        {
+          "name": "ResetEvent",
+          "iat_va": "0x0067c160"
+        },
+        {
+          "name": "WaitForMultipleObjects",
+          "iat_va": "0x0067c164"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "iat_va": "0x0067c168"
+        },
+        {
+          "name": "ReadFile",
+          "iat_va": "0x0067c16c"
+        },
+        {
+          "name": "CreateFileA",
+          "iat_va": "0x0067c170"
+        },
+        {
+          "name": "DebugBreak",
+          "iat_va": "0x0067c174"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iat_va": "0x0067c178"
+        },
+        {
+          "name": "QueryPerformanceFrequency",
+          "iat_va": "0x0067c17c"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iat_va": "0x0067c180"
+        },
+        {
+          "name": "GetTimeFormatA",
+          "iat_va": "0x0067c184"
+        },
+        {
+          "name": "GetDateFormatA",
+          "iat_va": "0x0067c188"
+        },
+        {
+          "name": "GetUserDefaultLangID",
+          "iat_va": "0x0067c18c"
+        },
+        {
+          "name": "ReleaseMutex",
+          "iat_va": "0x0067c190"
+        },
+        {
+          "name": "GetLastError",
+          "iat_va": "0x0067c194"
+        },
+        {
+          "name": "CreateMutexA",
+          "iat_va": "0x0067c198"
+        },
+        {
+          "name": "DeleteFileA",
+          "iat_va": "0x0067c19c"
+        },
+        {
+          "name": "ExpandEnvironmentStringsA",
+          "iat_va": "0x0067c1a0"
+        },
+        {
+          "name": "CreateDirectoryA",
+          "iat_va": "0x0067c1a4"
+        },
+        {
+          "name": "SetThreadAffinityMask",
+          "iat_va": "0x0067c1a8"
+        },
+        {
+          "name": "GetCurrentThread",
+          "iat_va": "0x0067c1ac"
+        },
+        {
+          "name": "OutputDebugStringA",
+          "iat_va": "0x0067c1b0"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iat_va": "0x0067c1b4"
+        },
+        {
+          "name": "WriteFile",
+          "iat_va": "0x0067c1b8"
+        },
+        {
+          "name": "MoveFileA",
+          "iat_va": "0x0067c1bc"
+        }
+      ]
+    },
+    {
+      "dll": "ADVAPI32.dll",
+      "symbols": [
+        {
+          "name": "CryptAcquireContextA",
+          "iat_va": "0x0067c000"
+        },
+        {
+          "name": "RegOpenKeyExA",
+          "iat_va": "0x0067c004"
+        },
+        {
+          "name": "RegQueryValueExA",
+          "iat_va": "0x0067c008"
+        },
+        {
+          "name": "RegCloseKey",
+          "iat_va": "0x0067c00c"
+        },
+        {
+          "name": "CryptGenRandom",
+          "iat_va": "0x0067c010"
+        },
+        {
+          "name": "CryptReleaseContext",
+          "iat_va": "0x0067c014"
+        }
+      ]
+    },
+    {
+      "dll": "ole32.dll",
+      "symbols": [
+        {
+          "name": "CoInitialize",
+          "iat_va": "0x0067c318"
+        },
+        {
+          "name": "CoInitializeEx",
+          "iat_va": "0x0067c31c"
+        },
+        {
+          "name": "CoSetProxyBlanket",
+          "iat_va": "0x0067c320"
+        },
+        {
+          "name": "CoUninitialize",
+          "iat_va": "0x0067c324"
+        },
+        {
+          "name": "CoCreateGuid",
+          "iat_va": "0x0067c328"
+        },
+        {
+          "name": "CoCreateInstance",
+          "iat_va": "0x0067c32c"
+        }
+      ]
+    },
+    {
+      "dll": "d3dx9_31.dll",
+      "symbols": [
+        {
+          "name": "D3DXMatrixOrthoLH",
+          "iat_va": "0x0067c2f0"
+        },
+        {
+          "name": "D3DXMatrixMultiply",
+          "iat_va": "0x0067c2f4"
+        },
+        {
+          "name": "D3DXCreateCubeTextureFromFileInMemory",
+          "iat_va": "0x0067c2f8"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileInMemoryEx",
+          "iat_va": "0x0067c2fc"
+        },
+        {
+          "name": "D3DXCreateTextureFromFileInMemory",
+          "iat_va": "0x0067c300"
+        },
+        {
+          "name": "D3DXSaveSurfaceToFileInMemory",
+          "iat_va": "0x0067c304"
+        },
+        {
+          "name": "D3DXCreateEffectCompiler",
+          "iat_va": "0x0067c308"
+        },
+        {
+          "name": "D3DXCreateBuffer",
+          "iat_va": "0x0067c30c"
+        },
+        {
+          "name": "D3DXCompileShader",
+          "iat_va": "0x0067c310"
+        }
+      ]
+    },
+    {
+      "dll": "d3d9.dll",
+      "symbols": [
+        {
+          "name": "Direct3DCreate9",
+          "iat_va": "0x0067c2e8"
+        }
+      ]
+    },
+    {
+      "dll": "DSOUND.dll",
+      "symbols": [
+        {
+          "ordinal": 11,
+          "iat_va": "0x0067c024"
+        }
+      ]
+    },
+    {
+      "dll": "DINPUT8.dll",
+      "symbols": [
+        {
+          "name": "DirectInput8Create",
+          "iat_va": "0x0067c01c"
+        }
+      ]
+    },
+    {
+      "dll": "XINPUT1_3.dll",
+      "symbols": [
+        {
+          "ordinal": 2,
+          "iat_va": "0x0067c2ac"
+        },
+        {
+          "ordinal": 4,
+          "iat_va": "0x0067c2b0"
+        }
+      ]
+    },
+    {
+      "dll": "WINMM.dll",
+      "symbols": [
+        {
+          "name": "timeGetTime",
+          "iat_va": "0x0067c248"
+        }
+      ]
+    },
+    {
+      "dll": "binkw32.dll",
+      "symbols": [
+        {
+          "name": "_BinkOpen@8",
+          "iat_va": "0x0067c2b8"
+        },
+        {
+          "name": "_BinkClose@4",
+          "iat_va": "0x0067c2bc"
+        },
+        {
+          "name": "_BinkSetVolume@12",
+          "iat_va": "0x0067c2c0"
+        },
+        {
+          "name": "_BinkOpenDirectSound@4",
+          "iat_va": "0x0067c2c4"
+        },
+        {
+          "name": "_BinkSetSoundTrack@8",
+          "iat_va": "0x0067c2c8"
+        },
+        {
+          "name": "_BinkDoFrame@4",
+          "iat_va": "0x0067c2cc"
+        },
+        {
+          "name": "_BinkCopyToBufferRect@44",
+          "iat_va": "0x0067c2d0"
+        },
+        {
+          "name": "_BinkGoto@12",
+          "iat_va": "0x0067c2d4"
+        },
+        {
+          "name": "_BinkNextFrame@4",
+          "iat_va": "0x0067c2d8"
+        },
+        {
+          "name": "_BinkWait@4",
+          "iat_va": "0x0067c2dc"
+        },
+        {
+          "name": "_BinkSetSoundSystem@8",
+          "iat_va": "0x0067c2e0"
+        }
+      ]
+    },
+    {
+      "dll": "USER32.dll",
+      "symbols": [
+        {
+          "name": "DispatchMessageA",
+          "iat_va": "0x0067c1ec"
+        },
+        {
+          "name": "MoveWindow",
+          "iat_va": "0x0067c1f0"
+        },
+        {
+          "name": "AdjustWindowRect",
+          "iat_va": "0x0067c1f4"
+        },
+        {
+          "name": "SystemParametersInfoA",
+          "iat_va": "0x0067c1f8"
+        },
+        {
+          "name": "MessageBoxA",
+          "iat_va": "0x0067c1fc"
+        },
+        {
+          "name": "UpdateWindow",
+          "iat_va": "0x0067c200"
+        },
+        {
+          "name": "ShowWindow",
+          "iat_va": "0x0067c204"
+        },
+        {
+          "name": "LoadIconA",
+          "iat_va": "0x0067c208"
+        },
+        {
+          "name": "LoadCursorA",
+          "iat_va": "0x0067c20c"
+        },
+        {
+          "name": "RegisterClassExA",
+          "iat_va": "0x0067c210"
+        },
+        {
+          "name": "CreateWindowExA",
+          "iat_va": "0x0067c214"
+        },
+        {
+          "name": "PostQuitMessage",
+          "iat_va": "0x0067c218"
+        },
+        {
+          "name": "DefWindowProcA",
+          "iat_va": "0x0067c21c"
+        },
+        {
+          "name": "DestroyWindow",
+          "iat_va": "0x0067c220"
+        },
+        {
+          "name": "SetCursorPos",
+          "iat_va": "0x0067c224"
+        },
+        {
+          "name": "SetCursor",
+          "iat_va": "0x0067c228"
+        },
+        {
+          "name": "PeekMessageA",
+          "iat_va": "0x0067c22c"
+        },
+        {
+          "name": "TranslateMessage",
+          "iat_va": "0x0067c230"
+        },
+        {
+          "name": "SendMessageA",
+          "iat_va": "0x0067c234"
+        },
+        {
+          "name": "GetSystemMetrics",
+          "iat_va": "0x0067c238"
+        },
+        {
+          "name": "SetForegroundWindow",
+          "iat_va": "0x0067c23c"
+        },
+        {
+          "name": "IsIconic",
+          "iat_va": "0x0067c240"
+        }
+      ]
+    },
+    {
+      "dll": "GDI32.dll",
+      "symbols": [
+        {
+          "name": "DeleteObject",
+          "iat_va": "0x0067c02c"
+        }
+      ]
+    },
+    {
+      "dll": "SHELL32.dll",
+      "symbols": [
+        {
+          "name": "SHCreateDirectoryExA",
+          "iat_va": "0x0067c1dc"
+        },
+        {
+          "name": "SHGetFolderPathA",
+          "iat_va": "0x0067c1e0"
+        },
+        {
+          "name": "ShellExecuteA",
+          "iat_va": "0x0067c1e4"
+        }
+      ]
+    },
+    {
+      "dll": "OLEAUT32.dll",
+      "symbols": [
+        {
+          "ordinal": 2,
+          "iat_va": "0x0067c1c4"
+        },
+        {
+          "ordinal": 6,
+          "iat_va": "0x0067c1c8"
+        }
+      ]
+    }
+  ],
+  "packing_signals": [],
+  "suspected_packed": false,
+  "blockers": [],
+  "status": "candidate_for_lifting",
+  "limitations": [
+    "Entropy and section layout are heuristics, not identification of a protection vendor.",
+    "Passing preflight does not prove complete code recovery or Android compatibility.",
+    "Imports describe the on-disk image only; dynamically resolved APIs may be missing.",
+    "No executable was launched, unpacked, decrypted, or modified."
+  ],
+  "assets": [
+    {
+      "path": "Transformers_Hi.DAT",
+      "present": true,
+      "size": 1296602768,
+      "header_hex": "8eb7b2ff90240000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "Transformers_Lo.DAT",
+      "present": true,
+      "size": 594462576,
+      "header_hex": "ba95dcff70810400000000000000000000000000000000000000000000000000"
+    },
+    {
+      "path": "binkw32.dll",
+      "present": true,
+      "size": 167936,
+      "header_hex": "4d5a90000300000004000000ffff0000b8000000000000004000000000000000"
+    }
+  ],
+  "asset_directories": [
+    {
+      "path": "audio",
+      "present": true,
+      "file_count": 362,
+      "total_bytes": 1077667386,
+      "extensions": {
+        ".wav": 362
+      }
+    },
+    {
+      "path": "fmv",
+      "present": true,
+      "file_count": 118,
+      "total_bytes": 1377352620,
+      "extensions": {
+        ".bik": 118
+      }
+    }
+  ],
+  "asset_limitations": "DAT/FMVs are inventoried only; their formats and contents were not decoded."
+}

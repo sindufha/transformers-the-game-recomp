@@ -1,0 +1,43 @@
+{
+  "status": "dxvk_native_android_built",
+  "abi": "x86_64",
+  "api": 29,
+  "revision": "c8dc91fabd00cac11d697ccf07426e798393cd40",
+  "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\dxvk-native",
+  "source_preparation_sha256": "c8d35019c294940e35ad3f737eb942f838f8ecfc09083b658a84eee764bf2fe1",
+  "archive": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\dxvk-x86_64\\libdxvk_android.a",
+  "archive_sha256": "510225241a932ba5a468a14cbc22ff5d87a41ae0c2ba64bbdbfb7880ad45aba5",
+  "archive_bytes": 19098230,
+  "shared": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\dxvk-x86_64\\libdxvk_android.so",
+  "shared_sha256": "c1d904c244fbf40a11a816d4ba831d017e28bcefd59098b32deb7bc246ba3c38",
+  "shared_bytes": 9386840,
+  "pic": true,
+  "object_count": 116,
+  "shader_count": 54,
+  "compiler": "Android (12285214, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "wsi_sha256": "3b3331e8b05349966b34c90c310b9d19f9567ce9c05104aa2692e80aed5b002c",
+  "wsi_header_sha256": "12409110ce85304be93817b92148265e31066badd457b4b2b5023cda92439cb9",
+  "spirv_tools_source_sha256": "48ca015b22bede992328800aec6c6f890f7340e59b52432123d37231d735fee7",
+  "spirv_tools_archives": [
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\spirv-x86_64\\libSPIRV-Tools-opt.a",
+      "sha256": "4daf994dc99c4302fc335f0bcc51f511981d20083e0a1d6c97d4ced9d6635104",
+      "bytes": 10392992
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\spirv-x86_64\\libSPIRV-Tools.a",
+      "sha256": "8ffab1bc8c3707d0ef9d0b60d11ced5a4935ac1a30534fcbb634c326a1f41482",
+      "bytes": 3613674
+    }
+  ],
+  "specializer_sha256": "17e955058a047d46bff11b2d844be81c777d2e877ce69d16bd1893d2aaac502e",
+  "target": "x86_64-linux-android29",
+  "runtime_tested": false,
+  "gameplay_tested": false,
+  "limitations": [
+    "GPU/driver features remain device dependent",
+    "No BC texture software fallback",
+    "No guest COM bridge included in backend",
+    "No gameplay verification from build/link"
+  ]
+}

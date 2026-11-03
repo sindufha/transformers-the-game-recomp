@@ -1,0 +1,13 @@
+{
+  "request_sha256": "6251f6ccc6b842f03abaae9483940e7eb08762fd5430c4f07f46d2d6de58280f",
+  "shader_sha256": "2467c03fcae3b4c997feac62e66d6188452fdd7c8d12770df3cb5db7c80650ac",
+  "constant_sha256": "fb4edcc2905bd7cb1e5b65db76f58e2613390fe91cc4328671be2f6911eacbfd",
+  "compiler": "C:\\WINDOWS\\System32\\d3dx9_31.dll",
+  "compiler_sha256": "84167b7df7e97c63f0cc15c1d272cdc7bba942f6f36a8801aec9840825891d0d",
+  "entry": "fragmentProgram",
+  "profile": "ps_3_0",
+  "flags": 512,
+  "shader_bytes": 288,
+  "constant_bytes": 172,
+  "diagnostics": ""
+}

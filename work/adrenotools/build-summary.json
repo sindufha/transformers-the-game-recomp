@@ -1,0 +1,26 @@
+{
+  "abi": "arm64-v8a",
+  "api": 29,
+  "build_tool_sha256": "c37791e559a1adfc1e616ce282f55c654ac63b2b1f3d34e4c1a4b881f159e1e8",
+  "pins": {
+    "external\\libadrenotools": "8fae8ce254dfc1344527e05301e43f37dea2df80",
+    "external\\libadrenotools\\lib\\linkernsbypass": "aa3975893d83ef1bc84c321ec60c65fbf1287887"
+  },
+  "libraries": {
+    "libhook_impl.so": {
+      "sha256": "85b1f9c21659a827c3b9a29fd3af26364c0c244001644834ef7496410f5f4347",
+      "bytes": 465520
+    },
+    "libadrenotools.so": {
+      "sha256": "541b74070a0ab1580ca5169dff8ba98615028a7b85129bc879549f1e8be5b760",
+      "bytes": 1212592
+    },
+    "libmain_hook.so": {
+      "sha256": "a149495bb660978a03abcbba9137d82c19633c38eed4f2276f1929d2ef725db7",
+      "bytes": 5768
+    }
+  },
+  "license_sha256": "25adc710d81a37eb90a453aec3217eda016407ff4cf9616356ec1d9a10b36098",
+  "mapping_hooks_enabled": false,
+  "executed": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "linked_diagnostic_probe",
+  "linked": true,
+  "executed": false,
+  "playable": false,
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "abi": "armeabi-v7a",
+  "target": "armv7a-linux-androideabi29",
+  "startup_apis": true,
+  "startup_source_sha256": {
+    "startup.c": "fa21d50ecb95c82e704ed56ce7d9c60df1d301f457808d9142ecc2b6ceefb236",
+    "startup.h": "655028da57cb6267d380724f1ed1afc72c057cdc3bf780af06f3bb6345428e51",
+    "startup_state.h": "739d20cff1721cac7ce5086dd36fadc321ac86d5989e452041a18bf78df7d279"
+  },
+  "artifact": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-armeabi-v7a-target\\transformers-probe",
+  "artifact_sha256": "6566c73af129ae435b911d6e3411acf928b800307c22e56b6f2298e6e13d4839",
+  "artifact_bytes": 11576,
+  "requires_game_runtime": "034744cc8bcf08eb0293ecb8488dd2f8dfdc9df5b0078859ae7012f6099b73b0",
+  "link": {
+    "exit_code": 0,
+    "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-armeabi-v7a-target\\probe-link.rsp",
+    "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-armeabi-v7a-target\\probe-link.log"
+  }
+}

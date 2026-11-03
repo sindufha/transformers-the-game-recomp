@@ -1,0 +1,12 @@
+{
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "target": "aarch64-linux-android29",
+  "strict_header_sha256": "025e6b22059b96c01fd79a4337602d84df0f66ea6b26e2c7bfff8a0f7a837c7f",
+  "runtime_overlay_sha256": {
+    "transformers_x87.h": "26900e9b65b71b27e3962f5a248702a9ca5e1873cfefa33319ef48abf505dc77",
+    "transformers_runtime.h": "07e94c202a6be6f9807c79a86e3fb4154aeec7499a91785598e067db2f7ec9da"
+  },
+  "archive_sha256": "7d8f7ab094946b779a87914847b961246b5cde334de72f0f6b3ae5c269e238a0",
+  "compiler": "Android (12285214, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "optimization": "2"
+}

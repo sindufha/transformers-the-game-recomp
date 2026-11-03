@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "status": "code_generated",
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "pcrecomp_commit": "8c92919a99aaf9e129af5787776bca84863468cc",
+  "lifter_exit_code": 0,
+  "function_count": 14470,
+  "entry_in_catalog": true,
+  "generated_c_files": 50,
+  "diagnostic_count": 0,
+  "diagnostics": [],
+  "runtime_status": "not_implemented",
+  "playable": false,
+  "target_profile": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\config\\code-regions.json",
+  "explicit_interrupt_boundaries": 16,
+  "limitations": [
+    "Function discovery is heuristic; passing this check does not prove all functions were recovered.",
+    "Win32, Direct3D, audio, input, guest memory, exceptions and threads still require a host runtime.",
+    "Generated import stubs are diagnostics, not implementations of Windows APIs.",
+    "No game executable was launched by this command."
+  ]
+}

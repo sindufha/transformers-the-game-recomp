@@ -1,0 +1,111 @@
+{
+  "collection": "Google Material Symbols Rounded, filled",
+  "license": "Apache-2.0",
+  "icons": [
+    {
+      "name": "sports_mma",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/sports_mma/materialsymbolsrounded/sports_mma_fill1_24px.xml",
+      "sha256": "7b669fb6689d85a5d6cc585af1fb4bc30581c2fa123e1e3c69a8a7dabe8cd234"
+    },
+    {
+      "name": "shield",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/shield/materialsymbolsrounded/shield_fill1_24px.xml",
+      "sha256": "5d1b90eaef41ca808af404d03325a1669748479cd70adf8c8b93d0db23c7da94"
+    },
+    {
+      "name": "arrow_upward",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/arrow_upward/materialsymbolsrounded/arrow_upward_fill1_24px.xml",
+      "sha256": "59ba7dcc83c7b25b5f440f583bee397d1f3262c64ac1f88d6250bea576be0554"
+    },
+    {
+      "name": "my_location",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/my_location/materialsymbolsrounded/my_location_fill1_24px.xml",
+      "sha256": "fd1ace40e8dd21422666404f9acd61aedc09b5db65fa9b4dd520ba9294d6032c"
+    },
+    {
+      "name": "rocket_launch",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/rocket_launch/materialsymbolsrounded/rocket_launch_fill1_24px.xml",
+      "sha256": "fb0a14f4e1c0540c406d8ee946e03c78ae76347ae8f3a1ce99164916243cd709"
+    },
+    {
+      "name": "back_hand",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/back_hand/materialsymbolsrounded/back_hand_fill1_24px.xml",
+      "sha256": "b623c7be00e4fce436a341167362bb7b74cdc2428bae7b26da9d37983ac3d6a8"
+    },
+    {
+      "name": "directions_car",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/directions_car/materialsymbolsrounded/directions_car_fill1_24px.xml",
+      "sha256": "ec4b799f767d5bbd821c6ee2eab17c5e85771a35d2d7a23c2a052705a63ff51a"
+    },
+    {
+      "name": "smart_toy",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/smart_toy/materialsymbolsrounded/smart_toy_fill1_24px.xml",
+      "sha256": "d1d7f4155a64b53845e4f5809effda9d2fd7d2b10f94f4ad9aeef78e184b864b"
+    },
+    {
+      "name": "bolt",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/bolt/materialsymbolsrounded/bolt_fill1_24px.xml",
+      "sha256": "dbdcfc3cbb2d624ac85ff440a8f243d488077c47d3b50768f4c5ff3e1785a77b"
+    },
+    {
+      "name": "pause",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/pause/materialsymbolsrounded/pause_fill1_24px.xml",
+      "sha256": "0eefcf55912cd61045fdb47103166b6657eaa04113e2a82760851bee793fbea9"
+    },
+    {
+      "name": "arrow_back",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/arrow_back/materialsymbolsrounded/arrow_back_fill1_24px.xml",
+      "sha256": "2234b70714868b60321dce32d68711122a83c279caf65089ca0950743791d85b"
+    },
+    {
+      "name": "play_arrow",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/play_arrow/materialsymbolsrounded/play_arrow_fill1_24px.xml",
+      "sha256": "975979f9b395ac8c86a81b1b89f73a8959983baf56a094f25d934a12eef66c35"
+    },
+    {
+      "name": "close",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/close/materialsymbolsrounded/close_fill1_24px.xml",
+      "sha256": "b038399ae4a61563cd8e1621f67b4ec66deac8a474cdd615689610c11dae21d6"
+    },
+    {
+      "name": "more_horiz",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/more_horiz/materialsymbolsrounded/more_horiz_fill1_24px.xml",
+      "sha256": "5dd31c33ff6ae394a2798f9838540ccb9a2d421329b5b086b777477f749f2ce9"
+    },
+    {
+      "name": "keyboard_arrow_up",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/keyboard_arrow_up/materialsymbolsrounded/keyboard_arrow_up_fill1_24px.xml",
+      "sha256": "688fef28570928e033e831f149ea4650a816a2d31c41609f11a002e54d3a064b"
+    },
+    {
+      "name": "keyboard_arrow_down",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/keyboard_arrow_down/materialsymbolsrounded/keyboard_arrow_down_fill1_24px.xml",
+      "sha256": "5ab075225a3de55000b07af4d32168a13e12e2ef9a10bb99e80e297cc86eb659"
+    },
+    {
+      "name": "keyboard_arrow_left",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/keyboard_arrow_left/materialsymbolsrounded/keyboard_arrow_left_fill1_24px.xml",
+      "sha256": "0304261a7ae4c26e7e7e912d368e74bd77c38e753220a555cef910b9f04866d0"
+    },
+    {
+      "name": "keyboard_arrow_right",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/keyboard_arrow_right/materialsymbolsrounded/keyboard_arrow_right_fill1_24px.xml",
+      "sha256": "f78fcf7f9681cb855df306b9cdcb250ab6eac2251a5b25cb6391b3bdab08792d"
+    },
+    {
+      "name": "campaign",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/campaign/materialsymbolsrounded/campaign_fill1_24px.xml",
+      "sha256": "12b792dac28afd648f51c15c238d0961d30cd9640818deec109082d92bae146a"
+    },
+    {
+      "name": "pan_tool",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/pan_tool/materialsymbolsrounded/pan_tool_fill1_24px.xml",
+      "sha256": "d5e3948f9cfcb6856994e4ed8d44d53b92b20e5d872c557343c7290da20170fd"
+    },
+    {
+      "name": "filter_center_focus",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/android/filter_center_focus/materialsymbolsrounded/filter_center_focus_fill1_24px.xml",
+      "sha256": "55121fa89ea05bf719030dba74113ce31454aacc4ace5b295b1bb8df9b0b12d8"
+    }
+  ]
+}

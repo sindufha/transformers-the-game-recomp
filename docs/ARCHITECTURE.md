@@ -1,3 +1,5 @@
+> Historical documentation retained from the previous repository. For the current private source backup, software requirements and build/install instructions, use [README.md](../README.md).
+
 # Architecture
 
 The project translates the supported PC executable into native Android code

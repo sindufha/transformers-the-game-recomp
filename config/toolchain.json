@@ -1,0 +1,7 @@
+{
+  "reference": "https://github.com/codepdbh/nfsu2-recompiled",
+  "pcrecomp_repository": "https://github.com/sp00nznet/pcrecomp.git",
+  "pcrecomp_commit": "8c92919a99aaf9e129af5787776bca84863468cc",
+  "architecture": "x86",
+  "android_abi": "arm64-v8a"
+}

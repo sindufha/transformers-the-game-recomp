@@ -1,0 +1,328 @@
+{
+  "status": "linked_dxvk_game_runtime",
+  "linked": true,
+  "executed": false,
+  "playable": false,
+  "device_tested": false,
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "target": "i686-linux-android29",
+  "abi": "x86",
+  "core_archive_provenance": {
+    "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+    "target": "i686-linux-android29",
+    "strict_header_sha256": "025e6b22059b96c01fd79a4337602d84df0f66ea6b26e2c7bfff8a0f7a837c7f",
+    "runtime_overlay_sha256": {
+      "transformers_x87.h": "26900e9b65b71b27e3962f5a248702a9ca5e1873cfefa33319ef48abf505dc77",
+      "transformers_runtime.h": "07e94c202a6be6f9807c79a86e3fb4154aeec7499a91785598e067db2f7ec9da"
+    },
+    "archive_sha256": "7e31b2c0a601d104d644d7c7551ab1d668b29181d1cec962fd64eec5305f3506",
+    "compiler": "Android (12285214, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+    "optimization": "0"
+  },
+  "dxvk_archive_sha256": "16ced6adf3ac8e00f57d30dd90f2654704ed4e57a62b2606be42b0994979a9ea",
+  "dxvk_revision": "c8dc91fabd00cac11d697ccf07426e798393cd40",
+  "dxvk_source_preparation_sha256": "c8d35019c294940e35ad3f737eb942f838f8ecfc09083b658a84eee764bf2fe1",
+  "spirv_tools_source_sha256": "48ca015b22bede992328800aec6c6f890f7340e59b52432123d37231d735fee7",
+  "runtime_source_sha256": {
+    "probe_support.c": "03da1c9a67bbce03cb0a0c8c9ea749e2f509da39d86054f951080bb0e27af1f1",
+    "game_memory.c": "01bfb1f133af5f594b8f5ae6841327b3b2478fcc83ee73cb305151d7c16aa877",
+    "source_files.c": "da709accb0ef8e3b7eedb1ced2bc84ad300340ba9f34ff55c5e4497bdc100a42",
+    "startup.c": "fa21d50ecb95c82e704ed56ce7d9c60df1d301f457808d9142ecc2b6ceefb236",
+    "startup_user32.c": "7c8f568dc2ca44bfcd6725eb828ceaac30bddb192fee6a454d8c484f990d20d6",
+    "android_game.cpp": "9e7acef190ee26e57af97419028adfad27e1c4428fcc7aeab0371e9a73f50af1",
+    "android_presenter.cpp": "5bd6129706853b5077f87c731d78e91f6906841d06c2789734fdcad6c36327bd",
+    "session_lifecycle.cpp": "ba02871663ad4b0b91e5ffcd78b9b55b3340a703ca908b6e7042e121126fd9e4",
+    "android_vulkan.cpp": "744e27c0270e6b2039d981a1f0a06ac4ff41766d2dbd67cb41508b24e273a635",
+    "dxvk_smoke.cpp": "9363b860217bfbd1a5d47b609ac05835e46974656ac0cff2734d9e77cf61ed7e",
+    "d3d9_bridge.cpp": "4df93afabac5b29a5e9a8827db9df234c12c10f28277080d32143c4a526ea743",
+    "d3d9_hle.cpp": "2e786fddac89efa8c585cfef07bcdd4044dae6531a24bc6515551848b5852243",
+    "startup_services.c": "f99c49c60d6d714e0ebc5a94ff61b36098d130260d29766870f65512fee559e3",
+    "startup_input.c": "97c8f23bd4cdc12bad5ff1d76dfce858ce064c26219a5d206f6846814933af50",
+    "startup_audio.cpp": "6eb1970f50bf192ec1c52f758489ea38317465211e939114f4161a839173335a",
+    "control_profile.cpp": "65ba637ca58b50ca7bd012dd368391dfe0253f2de68ee8045c405c10d6a0a04e"
+  },
+  "sources": [
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\probe_support.c",
+      "sha256": "03da1c9a67bbce03cb0a0c8c9ea749e2f509da39d86054f951080bb0e27af1f1"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\host_lite.c",
+      "sha256": "e10acd0ec63d91fef55145f7cf8dfb70217bdebaa41d37a5ff618083267db9df"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\pe_loader.c",
+      "sha256": "a4b853a36abfda48680f1573caed35f62c6bf422b4e7f5f92532d79c4cd0688c"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32.c",
+      "sha256": "21246cac58e031862dca9c487b9c624801d35786705b25109193476382f3354d"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32_crt.c",
+      "sha256": "17795558d86119e17478acf84c861eb328a03d4de16aecd1dd0df808876012f7"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32_ext.c",
+      "sha256": "21a9311e35495a282adae9184574c26ce6405eaaa7d43a38dd886c2196861908"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\module.c",
+      "sha256": "033e8908e418cb5707a9a009a1a97868e012c80cb9c57d371bd41997222f1bfb"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\hle_path.c",
+      "sha256": "8ff1ab26e20e592629eb78c46ed986f8278f8fa5f090944432a24db6282b03b2"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\game_memory.c",
+      "sha256": "01bfb1f133af5f594b8f5ae6841327b3b2478fcc83ee73cb305151d7c16aa877"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\source_files.c",
+      "sha256": "da709accb0ef8e3b7eedb1ced2bc84ad300340ba9f34ff55c5e4497bdc100a42"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup.c",
+      "sha256": "fa21d50ecb95c82e704ed56ce7d9c60df1d301f457808d9142ecc2b6ceefb236"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_user32.c",
+      "sha256": "7c8f568dc2ca44bfcd6725eb828ceaac30bddb192fee6a454d8c484f990d20d6"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_game.cpp",
+      "sha256": "9e7acef190ee26e57af97419028adfad27e1c4428fcc7aeab0371e9a73f50af1"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_presenter.cpp",
+      "sha256": "5bd6129706853b5077f87c731d78e91f6906841d06c2789734fdcad6c36327bd"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\session_lifecycle.cpp",
+      "sha256": "ba02871663ad4b0b91e5ffcd78b9b55b3340a703ca908b6e7042e121126fd9e4"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_vulkan.cpp",
+      "sha256": "744e27c0270e6b2039d981a1f0a06ac4ff41766d2dbd67cb41508b24e273a635"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\dxvk_smoke.cpp",
+      "sha256": "9363b860217bfbd1a5d47b609ac05835e46974656ac0cff2734d9e77cf61ed7e"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\d3d9_bridge.cpp",
+      "sha256": "4df93afabac5b29a5e9a8827db9df234c12c10f28277080d32143c4a526ea743"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\d3d9_hle.cpp",
+      "sha256": "2e786fddac89efa8c585cfef07bcdd4044dae6531a24bc6515551848b5852243"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_services.c",
+      "sha256": "f99c49c60d6d714e0ebc5a94ff61b36098d130260d29766870f65512fee559e3"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_input.c",
+      "sha256": "97c8f23bd4cdc12bad5ff1d76dfce858ce064c26219a5d206f6846814933af50"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_audio.cpp",
+      "sha256": "6eb1970f50bf192ec1c52f758489ea38317465211e939114f4161a839173335a"
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\control_profile.cpp",
+      "sha256": "65ba637ca58b50ca7bd012dd368391dfe0253f2de68ee8045c405c10d6a0a04e"
+    }
+  ],
+  "compilation": [
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-00.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-00.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\probe_support.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-01.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-01.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\host_lite.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-02.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-02.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\pe_loader.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-03.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-03.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-04.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-04.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32_crt.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-05.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-05.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\kernel32_ext.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-06.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-06.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\module.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-07.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-07.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\external\\pcrecomp\\runtime\\win32hle\\hle_path.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-08.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-08.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\game_memory.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-09.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-09.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\source_files.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-10.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-10.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-11.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-11.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_user32.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-12.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-12.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_game.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-13.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-13.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_presenter.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-14.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-14.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\session_lifecycle.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-15.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-15.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\android_vulkan.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-16.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-16.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\dxvk_smoke.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-17.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-17.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\d3d9_bridge.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-18.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-18.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\d3d9_hle.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-19.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-19.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_services.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-20.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-20.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_input.c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-21.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-21.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\startup_audio.cpp"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-22.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\compile-22.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\runtime\\control_profile.cpp"
+    }
+  ],
+  "link": {
+    "exit_code": 0,
+    "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\link.rsp",
+    "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\link.log"
+  },
+  "artifact": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\probe-x86-target\\libtransformers_game.so",
+  "artifact_sha256": "170ce0dcedc4a1699e48c13754a854e6b7296262d22f1eb3ae4fd56925e81617",
+  "artifact_bytes": 143948172,
+  "runtime_dependency_sha256": {
+    "runtime/control_profile_state.h": "0babe0078af563e3a9cce1f75fe36d08c9e34eb10b46b01caf370d4fb4f95baf",
+    "runtime/control_profile.h": "eee84580f76d5adb90c823d857b7a591b0aa8e506a54016de42df090687b1666",
+    "runtime/startup_audio.h": "1a1ce5af7babf54812c24e28b93e37dce735ed9eab0ea93262942a9462c5d48b",
+    "runtime/audio_mixer.h": "5ee0f439537aac6e6ea3e52b9a3c8ded921f3b91af24f1b9e6502af9cfa066f9",
+    "runtime/audio_contract.h": "0569580c491d411c3b3903e92415d6702e1f8c5034c08c1d8fdab528b7297e5b",
+    "runtime/startup_input.h": "2f5afd20f4758185e98ee69de3f11af12649b96a07e294e1953451dd4cf22299",
+    "runtime/startup_input_state.h": "5ff9c8720f6795505f07a780aee22af4a0a6a56f796052550a500e824a1eb678",
+    "runtime/startup_user32.h": "14fcd7ffd20fb2fa3f13c907562def81b450ae3b6cd20433265f733235040997",
+    "runtime/startup_services.h": "4a8b406ad67af2b15a7e8dd4e58c7addc256505157f81145bc837b3c9e62aef5",
+    "runtime/d3d9_bridge.h": "e752c8b56e2ecf3b575184f91c421b0340e4c098bb2e0ed541036f3445e03b39",
+    "runtime/d3d9_wrappers.generated.inc": "789a7ed4755e20f14b3e832f647a9a5112db726ee6ce722645aa00cd8409665a",
+    "runtime/d3d9_constants_shims.inc": "fe55a8970846f4ae9c8c4aeab9ba30e56265e9c2c08cbd93077f6f9aaa1c1fd8",
+    "runtime/d3d9_math.h": "3b832d07abe4888fb88e48f5750790ee9eac46dbe57e933f9a8b784f6c9e3e53",
+    "runtime/d3d9_dds.h": "f966f2a3e9a68e709728fc4b1a5808f8f903913303c4f64235132a919d13b658",
+    "runtime/d3d9_bmp.h": "817103237bdc146db621e79199fb243232dc3027e307e5053e61f71b7ac0d97c",
+    "runtime/d3d9_shader.h": "563e44cbe6a6f3fa0166e73faa354c1c5fbabd33f13c0696515f8bce3ce1c261",
+    "runtime/frame_stats.h": "14c9ab7eccce5ea94acb9e69a159fe3f2ddf10043fabec1e30d2a94e0b3b990f",
+    "runtime/com_handle_cache.h": "47290803393bba833c986d73d17de64db74c64427c2c73ea7c05ff68e4e9e31d",
+    "runtime/d3d9_constants.inc": "159cba8b920f90be1ced4862a314ec6dff6c3331facf2a0829caec08cb95f240",
+    "runtime/d3d9_gpu_trace.inc": "ead2dae16aed86b425bb724b4e819fe78e2e38eaf8e4d3d9a8590055533a443b",
+    "runtime/d3d9_methods.generated.inc": "d91ff32dbf43c8e1e8b5cda8106382c00ffd527f1930c0b287af9345ad79e7e2",
+    "runtime/d3d9_image_test.inc": "6efa153181220d824d49694e9b6249c975c623fd8c12cef732fca9912bb98bc8",
+    "runtime/dxvk_smoke.h": "bc13751e093c5a7a2b80dd4077df78bcddf41efb38815c5f1a3a94834523192e",
+    "runtime/android_vulkan.h": "eb23f084c24e229224f797d90b5e21e14c456e0e92838a85acf2030e6006c379",
+    "runtime/session_lifecycle.h": "68df41c01b3415272a5bc906db8341194669d40fce4d7044261a76581b83f3e6",
+    "runtime/presentation_gate.h": "dcda106489fe69c3bfe7c7ce65600df2ae8eb5cd30a1e9d61e3bf66b2f01a29d",
+    "runtime/session_clock.h": "b089abc881f312e10856aa900cc94ad8484dc9bccf079860ca48506d21085a75",
+    "ports/dxvk_android/android_wsi.h": "12409110ce85304be93817b92148265e31066badd457b4b2b5023cda92439cb9",
+    "runtime/probe_support.h": "ae6d3184101c3c819065f2c66c2db3b25bda89e6be4e08a55a54aef3cc41ae84",
+    "runtime/startup.h": "655028da57cb6267d380724f1ed1afc72c057cdc3bf780af06f3bb6345428e51",
+    "runtime/transformers_x87.h": "26900e9b65b71b27e3962f5a248702a9ca5e1873cfefa33319ef48abf505dc77",
+    "runtime/startup_user32_state.h": "27e503b252e03c6e088d5ddc009ceb74756172d03d4039eb9a644ba99d6be369",
+    "runtime/startup_state.h": "739d20cff1721cac7ce5086dd36fadc321ac86d5989e452041a18bf78df7d279",
+    "runtime/log_budget.h": "589cd7af95dc61fc302ee9494d6b8462dcecdd8bdddbb3a35b2dcafb21ba6596",
+    "runtime/dispatch_cache.h": "879b1cbbba84d741ad36e634434e96b9cf4c41f52b42d96ae80292bc359d408c"
+  },
+  "limitations": [
+    "Built, not executed on Android.",
+    "D3D9 bridge coverage is partial; unsupported APIs fail explicitly.",
+    "Native triangle draw/readback test is separate from game startup/gameplay."
+  ]
+}

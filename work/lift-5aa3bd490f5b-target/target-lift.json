@@ -1,0 +1,60 @@
+{
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "pcrecomp_commit": "8c92919a99aaf9e129af5787776bca84863468cc",
+  "code_profile_sha256": "8d0fc2eefddc0bfb2d6e8b7344fe12191593bea5d850aabb3bada9a1722d0f01",
+  "discovery_revision": 1,
+  "schema_version": 1,
+  "function_count": 14470,
+  "excluded_data_ranges": [
+    {
+      "start": "0x006644d0",
+      "end": "0x00665fc0",
+      "sha256": "d7222c0908ce4572f4843633a026fcb5cc39f3c3dad5b3e46edf21b09a6a8adb",
+      "reason": "Three contiguous DIOBJECTDATAFORMAT arrays, bounded by DIDATAFORMAT object counts and followed by an IAT thunk. Preserve mapped bytes; exclude from instruction discovery and code traversal only.",
+      "evidence": [
+        "docs/CODE_BOUNDARIES.md#directinput-arrays",
+        "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416606(v=vs.85)",
+        "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ee416633(v=vs.85)"
+      ],
+      "arrays": [
+        {
+          "start": "0x006644d0",
+          "end": "0x006654d0",
+          "label": "DirectInput keyboard object formats",
+          "record_size": 16,
+          "record_count": 256,
+          "sha256": "248eec30e0948b69253f43ddd66ba7107499a3ed5e408f1996e050ebba22d59a",
+          "descriptor_va": "0x006ab514",
+          "descriptor_expected_bytes": "1800000010000000020000000001000000010000d0446600"
+        },
+        {
+          "start": "0x006654d0",
+          "end": "0x00665f10",
+          "label": "DirectInput joystick2 object formats",
+          "record_size": 16,
+          "record_count": 164,
+          "sha256": "bd6de575787bcb974fd93a4c1a0e94fa4afa1d5d6a8137d6cad531ed6822a5ec",
+          "descriptor_va": "0x006ab71c",
+          "descriptor_expected_bytes": "18000000100000000100000010010000a4000000d0546600"
+        },
+        {
+          "start": "0x00665f10",
+          "end": "0x00665fc0",
+          "label": "DirectInput mouse2 object formats",
+          "record_size": 16,
+          "record_count": 11,
+          "sha256": "e53e092090007c02f293ece9769285d4f21357e7919957865f89d665e3704b70",
+          "descriptor_va": "0x006ab924",
+          "descriptor_expected_bytes": "180000001000000002000000140000000b000000105f6600"
+        }
+      ]
+    }
+  ],
+  "handled_boundaries": {
+    "explicit_guest_interrupt": 16
+  },
+  "limitations": [
+    "INT boundaries terminate explicitly; Windows exception delivery is not implemented.",
+    "The upstream binary64 x87 arithmetic model remains an approximation."
+  ]
+}

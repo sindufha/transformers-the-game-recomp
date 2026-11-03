@@ -1,0 +1,23 @@
+{
+  "status": "spirv_tools_android_built",
+  "abi": "x86_64",
+  "api": 29,
+  "ndk": "D:\\AndroidTools\\android-sdk\\ndk\\27.1.12297006",
+  "ndk_properties_sha256": "e9b907b9c90bc2f0aaa87049580cc0c3ee0bb6aff50b58e4d1a8876ba3aeb026",
+  "source": "D:\\AndroidTools\\android-sdk\\ndk\\27.1.12297006\\sources\\third_party\\shaderc\\third_party\\spirv-tools",
+  "source_manifest_sha256": "48ca015b22bede992328800aec6c6f890f7340e59b52432123d37231d735fee7",
+  "archives": [
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\private-backup-20261104\\work\\spirv-x86_64\\libSPIRV-Tools-opt.a",
+      "sha256": "4daf994dc99c4302fc335f0bcc51f511981d20083e0a1d6c97d4ced9d6635104",
+      "bytes": 10392992
+    },
+    {
+      "path": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\private-backup-20261104\\work\\spirv-x86_64\\libSPIRV-Tools.a",
+      "sha256": "8ffab1bc8c3707d0ef9d0b60d11ced5a4935ac1a30534fcbb634c326a1f41482",
+      "bytes": 3613674
+    }
+  ],
+  "license_sha256": "4d5224d1c0b54ffa88b0dc0088191638fdbb7227835095dfb98f7f66b416a323",
+  "executed": false
+}

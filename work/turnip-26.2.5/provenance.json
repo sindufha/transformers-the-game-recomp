@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/nihui/mesa-turnip-android-driver",
+  "release_tag": "26.2.5",
+  "release_commit": "d88dc83e06bcdd6dfa10413ef7e576c96b8b8830",
+  "release_asset": "mesa-turnip-android-26.2.5.zip",
+  "release_url": "https://github.com/nihui/mesa-turnip-android-driver/releases/download/26.2.5/mesa-turnip-android-26.2.5.zip",
+  "archive_sha256": "b1701ef4a3da8a417beaa4108cc2d2edb8621e3f6c514ceadecb7f804a922181",
+  "driver_sha256": "56076b1026678fb154e3c09394e9cad7c7070fc1537df237d89a44ce1a3b757d",
+  "driver_bytes": 18031544,
+  "mesa_version": "26.2.5",
+  "mesa_source": "https://archive.mesa3d.org/mesa-26.2.5.tar.xz",
+  "build_workflow": "https://github.com/nihui/mesa-turnip-android-driver/blob/d88dc83e06bcdd6dfa10413ef7e576c96b8b8830/.github/workflows/release.yml"
+}

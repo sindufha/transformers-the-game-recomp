@@ -1,5 +1,13 @@
 # Changelog
 
+## Private build backup ? 0.5.35 / 2026-11-04
+
+- Added the full frozen recompilation and current Android/runtime/build source.
+- Added one active four-ABI native/core/backend set through Git LFS.
+- Added pinned dependency Git bundles, a restore helper and file integrity manifest.
+- Replaced the documentation-only README with software, restore, build and install instructions.
+- Excluded original game assets/EXE, signing keys, local tests, object caches and old APKs.
+
 ## v0.5.17 — Android playable preview
 
 - Fixed the large menu BACK button to send Backspace (VK 8 / DirectInput 0x0E).

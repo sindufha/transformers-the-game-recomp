@@ -1,0 +1,13 @@
+{
+  "version": "0.5.35",
+  "selected_original_files": 1665,
+  "generated_c_files": 50,
+  "game_data_bundled": false,
+  "original_executable_bundled": false,
+  "private_signing_key_bundled": false,
+  "local_tests_bundled": false,
+  "object_files_bundled": false,
+  "old_apks_bundled": false,
+  "dependency_strategy": "Self-contained pinned Git bundles restored by tools/restore_backup.py",
+  "native_strategy": "One active core/runtime/backend archive per supported ABI; no individual object caches"
+}

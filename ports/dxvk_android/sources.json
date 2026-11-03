@@ -1,0 +1,18 @@
+{
+  "dxvk_native": {
+    "repository": "https://github.com/Joshua-Ashton/dxvk-native",
+    "tag": "native-1.9.2b",
+    "revision": "c8dc91fabd00cac11d697ccf07426e798393cd40",
+    "license": "Zlib",
+    "native_directx_header_license": "LGPL-2.1-or-later"
+  },
+  "vulkan_android_header": {
+    "upstream": "https://github.com/KhronosGroup/Vulkan-Headers",
+    "upstream_tag_recorded_by_reference": "v1.2.189",
+    "copied_from_repository": "https://github.com/codepdbh/nfsu2-recompiled",
+    "copied_from_revision": "c27896e3dad62593ffc0a0500ebb39dca42ad2e0",
+    "copied_from_path": "ports/dxvk_android/include/vulkan_android.h",
+    "sha256": "49cddcf7ec1e90d02470fb140d3035408c24670eb53fedba1aa810d05daae126",
+    "license": "Apache-2.0"
+  }
+}

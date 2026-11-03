@@ -1,0 +1,2085 @@
+{
+  "upstream_commit": "c8dc91fabd00cac11d697ccf07426e798393cd40",
+  "header_normalized_sha256": "16c7ff6d9cbb6ffbf3529fbe9a7745d6995c6b77fbeb0278c229c594d8774502",
+  "methods": [
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 3,
+      "method": "RegisterSoftwareDevice",
+      "argc": 2
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 4,
+      "method": "GetAdapterCount",
+      "argc": 1
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 5,
+      "method": "GetAdapterIdentifier",
+      "argc": 4
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 6,
+      "method": "GetAdapterModeCount",
+      "argc": 3
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 7,
+      "method": "EnumAdapterModes",
+      "argc": 5
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 8,
+      "method": "GetAdapterDisplayMode",
+      "argc": 3
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 9,
+      "method": "CheckDeviceType",
+      "argc": 6
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 10,
+      "method": "CheckDeviceFormat",
+      "argc": 7
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 11,
+      "method": "CheckDeviceMultiSampleType",
+      "argc": 7
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 12,
+      "method": "CheckDepthStencilMatch",
+      "argc": 6
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 13,
+      "method": "CheckDeviceFormatConversion",
+      "argc": 5
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 14,
+      "method": "GetDeviceCaps",
+      "argc": 4
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 15,
+      "method": "GetAdapterMonitor",
+      "argc": 2
+    },
+    {
+      "kind": 1,
+      "interface": "IDirect3D9",
+      "slot": 16,
+      "method": "CreateDevice",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 3,
+      "method": "TestCooperativeLevel",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 4,
+      "method": "GetAvailableTextureMem",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 5,
+      "method": "EvictManagedResources",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 6,
+      "method": "GetDirect3D",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 7,
+      "method": "GetDeviceCaps",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 8,
+      "method": "GetDisplayMode",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 9,
+      "method": "GetCreationParameters",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 10,
+      "method": "SetCursorProperties",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 11,
+      "method": "SetCursorPosition",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 12,
+      "method": "ShowCursor",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 13,
+      "method": "CreateAdditionalSwapChain",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 14,
+      "method": "GetSwapChain",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 15,
+      "method": "GetNumberOfSwapChains",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 16,
+      "method": "Reset",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 17,
+      "method": "Present",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 18,
+      "method": "GetBackBuffer",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 19,
+      "method": "GetRasterStatus",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 20,
+      "method": "SetDialogBoxMode",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 21,
+      "method": "SetGammaRamp",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 22,
+      "method": "GetGammaRamp",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 23,
+      "method": "CreateTexture",
+      "argc": 9
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 24,
+      "method": "CreateVolumeTexture",
+      "argc": 10
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 25,
+      "method": "CreateCubeTexture",
+      "argc": 8
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 26,
+      "method": "CreateVertexBuffer",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 27,
+      "method": "CreateIndexBuffer",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 28,
+      "method": "CreateRenderTarget",
+      "argc": 9
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 29,
+      "method": "CreateDepthStencilSurface",
+      "argc": 9
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 30,
+      "method": "UpdateSurface",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 31,
+      "method": "UpdateTexture",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 32,
+      "method": "GetRenderTargetData",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 33,
+      "method": "GetFrontBufferData",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 34,
+      "method": "StretchRect",
+      "argc": 6
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 35,
+      "method": "ColorFill",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 36,
+      "method": "CreateOffscreenPlainSurface",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 37,
+      "method": "SetRenderTarget",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 38,
+      "method": "GetRenderTarget",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 39,
+      "method": "SetDepthStencilSurface",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 40,
+      "method": "GetDepthStencilSurface",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 41,
+      "method": "BeginScene",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 42,
+      "method": "EndScene",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 43,
+      "method": "Clear",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 44,
+      "method": "SetTransform",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 45,
+      "method": "GetTransform",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 46,
+      "method": "MultiplyTransform",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 47,
+      "method": "SetViewport",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 48,
+      "method": "GetViewport",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 49,
+      "method": "SetMaterial",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 50,
+      "method": "GetMaterial",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 51,
+      "method": "SetLight",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 52,
+      "method": "GetLight",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 53,
+      "method": "LightEnable",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 54,
+      "method": "GetLightEnable",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 55,
+      "method": "SetClipPlane",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 56,
+      "method": "GetClipPlane",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 57,
+      "method": "SetRenderState",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 58,
+      "method": "GetRenderState",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 59,
+      "method": "CreateStateBlock",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 60,
+      "method": "BeginStateBlock",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 61,
+      "method": "EndStateBlock",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 62,
+      "method": "SetClipStatus",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 63,
+      "method": "GetClipStatus",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 64,
+      "method": "GetTexture",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 65,
+      "method": "SetTexture",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 66,
+      "method": "GetTextureStageState",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 67,
+      "method": "SetTextureStageState",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 68,
+      "method": "GetSamplerState",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 69,
+      "method": "SetSamplerState",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 70,
+      "method": "ValidateDevice",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 71,
+      "method": "SetPaletteEntries",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 72,
+      "method": "GetPaletteEntries",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 73,
+      "method": "SetCurrentTexturePalette",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 74,
+      "method": "GetCurrentTexturePalette",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 75,
+      "method": "SetScissorRect",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 76,
+      "method": "GetScissorRect",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 77,
+      "method": "SetSoftwareVertexProcessing",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 78,
+      "method": "GetSoftwareVertexProcessing",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 79,
+      "method": "SetNPatchMode",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 80,
+      "method": "GetNPatchMode",
+      "argc": 1
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 81,
+      "method": "DrawPrimitive",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 82,
+      "method": "DrawIndexedPrimitive",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 83,
+      "method": "DrawPrimitiveUP",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 84,
+      "method": "DrawIndexedPrimitiveUP",
+      "argc": 9
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 85,
+      "method": "ProcessVertices",
+      "argc": 7
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 86,
+      "method": "CreateVertexDeclaration",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 87,
+      "method": "SetVertexDeclaration",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 88,
+      "method": "GetVertexDeclaration",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 89,
+      "method": "SetFVF",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 90,
+      "method": "GetFVF",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 91,
+      "method": "CreateVertexShader",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 92,
+      "method": "SetVertexShader",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 93,
+      "method": "GetVertexShader",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 94,
+      "method": "SetVertexShaderConstantF",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 95,
+      "method": "GetVertexShaderConstantF",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 96,
+      "method": "SetVertexShaderConstantI",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 97,
+      "method": "GetVertexShaderConstantI",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 98,
+      "method": "SetVertexShaderConstantB",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 99,
+      "method": "GetVertexShaderConstantB",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 100,
+      "method": "SetStreamSource",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 101,
+      "method": "GetStreamSource",
+      "argc": 5
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 102,
+      "method": "SetStreamSourceFreq",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 103,
+      "method": "GetStreamSourceFreq",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 104,
+      "method": "SetIndices",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 105,
+      "method": "GetIndices",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 106,
+      "method": "CreatePixelShader",
+      "argc": 3
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 107,
+      "method": "SetPixelShader",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 108,
+      "method": "GetPixelShader",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 109,
+      "method": "SetPixelShaderConstantF",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 110,
+      "method": "GetPixelShaderConstantF",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 111,
+      "method": "SetPixelShaderConstantI",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 112,
+      "method": "GetPixelShaderConstantI",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 113,
+      "method": "SetPixelShaderConstantB",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 114,
+      "method": "GetPixelShaderConstantB",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 115,
+      "method": "DrawRectPatch",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 116,
+      "method": "DrawTriPatch",
+      "argc": 4
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 117,
+      "method": "DeletePatch",
+      "argc": 2
+    },
+    {
+      "kind": 2,
+      "interface": "IDirect3DDevice9",
+      "slot": 118,
+      "method": "CreateQuery",
+      "argc": 3
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 11,
+      "method": "SetLOD",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 12,
+      "method": "GetLOD",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 13,
+      "method": "GetLevelCount",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 14,
+      "method": "SetAutoGenFilterType",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 15,
+      "method": "GetAutoGenFilterType",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 16,
+      "method": "GenerateMipSubLevels",
+      "argc": 1
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 17,
+      "method": "GetLevelDesc",
+      "argc": 3
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 18,
+      "method": "GetSurfaceLevel",
+      "argc": 3
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 19,
+      "method": "LockRect",
+      "argc": 5
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 20,
+      "method": "UnlockRect",
+      "argc": 2
+    },
+    {
+      "kind": 3,
+      "interface": "IDirect3DTexture9",
+      "slot": 21,
+      "method": "AddDirtyRect",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 11,
+      "method": "SetLOD",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 12,
+      "method": "GetLOD",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 13,
+      "method": "GetLevelCount",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 14,
+      "method": "SetAutoGenFilterType",
+      "argc": 2
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 15,
+      "method": "GetAutoGenFilterType",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 16,
+      "method": "GenerateMipSubLevels",
+      "argc": 1
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 17,
+      "method": "GetLevelDesc",
+      "argc": 3
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 18,
+      "method": "GetCubeMapSurface",
+      "argc": 4
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 19,
+      "method": "LockRect",
+      "argc": 6
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 20,
+      "method": "UnlockRect",
+      "argc": 3
+    },
+    {
+      "kind": 4,
+      "interface": "IDirect3DCubeTexture9",
+      "slot": 21,
+      "method": "AddDirtyRect",
+      "argc": 3
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 11,
+      "method": "GetContainer",
+      "argc": 3
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 12,
+      "method": "GetDesc",
+      "argc": 2
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 13,
+      "method": "LockRect",
+      "argc": 4
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 14,
+      "method": "UnlockRect",
+      "argc": 1
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 15,
+      "method": "GetDC",
+      "argc": 2
+    },
+    {
+      "kind": 5,
+      "interface": "IDirect3DSurface9",
+      "slot": 16,
+      "method": "ReleaseDC",
+      "argc": 2
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 11,
+      "method": "Lock",
+      "argc": 5
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 12,
+      "method": "Unlock",
+      "argc": 1
+    },
+    {
+      "kind": 6,
+      "interface": "IDirect3DVertexBuffer9",
+      "slot": 13,
+      "method": "GetDesc",
+      "argc": 2
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 11,
+      "method": "Lock",
+      "argc": 5
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 12,
+      "method": "Unlock",
+      "argc": 1
+    },
+    {
+      "kind": 7,
+      "interface": "IDirect3DIndexBuffer9",
+      "slot": 13,
+      "method": "GetDesc",
+      "argc": 2
+    },
+    {
+      "kind": 8,
+      "interface": "IDirect3DVertexShader9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 8,
+      "interface": "IDirect3DVertexShader9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 8,
+      "interface": "IDirect3DVertexShader9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 8,
+      "interface": "IDirect3DVertexShader9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 8,
+      "interface": "IDirect3DVertexShader9",
+      "slot": 4,
+      "method": "GetFunction",
+      "argc": 3
+    },
+    {
+      "kind": 9,
+      "interface": "IDirect3DPixelShader9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 9,
+      "interface": "IDirect3DPixelShader9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 9,
+      "interface": "IDirect3DPixelShader9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 9,
+      "interface": "IDirect3DPixelShader9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 9,
+      "interface": "IDirect3DPixelShader9",
+      "slot": 4,
+      "method": "GetFunction",
+      "argc": 3
+    },
+    {
+      "kind": 10,
+      "interface": "IDirect3DVertexDeclaration9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 10,
+      "interface": "IDirect3DVertexDeclaration9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 10,
+      "interface": "IDirect3DVertexDeclaration9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 10,
+      "interface": "IDirect3DVertexDeclaration9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 10,
+      "interface": "IDirect3DVertexDeclaration9",
+      "slot": 4,
+      "method": "GetDeclaration",
+      "argc": 3
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 4,
+      "method": "Capture",
+      "argc": 1
+    },
+    {
+      "kind": 11,
+      "interface": "IDirect3DStateBlock9",
+      "slot": 5,
+      "method": "Apply",
+      "argc": 1
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 4,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 5,
+      "method": "GetDataSize",
+      "argc": 1
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 6,
+      "method": "Issue",
+      "argc": 2
+    },
+    {
+      "kind": 12,
+      "interface": "IDirect3DQuery9",
+      "slot": 7,
+      "method": "GetData",
+      "argc": 4
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 3,
+      "method": "Present",
+      "argc": 6
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 4,
+      "method": "GetFrontBufferData",
+      "argc": 2
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 5,
+      "method": "GetBackBuffer",
+      "argc": 4
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 6,
+      "method": "GetRasterStatus",
+      "argc": 2
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 7,
+      "method": "GetDisplayMode",
+      "argc": 2
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 8,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 13,
+      "interface": "IDirect3DSwapChain9",
+      "slot": 9,
+      "method": "GetPresentParameters",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 7,
+      "method": "SetPriority",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 8,
+      "method": "GetPriority",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 9,
+      "method": "PreLoad",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 10,
+      "method": "GetType",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 11,
+      "method": "SetLOD",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 12,
+      "method": "GetLOD",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 13,
+      "method": "GetLevelCount",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 14,
+      "method": "SetAutoGenFilterType",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 15,
+      "method": "GetAutoGenFilterType",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 16,
+      "method": "GenerateMipSubLevels",
+      "argc": 1
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 17,
+      "method": "GetLevelDesc",
+      "argc": 3
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 18,
+      "method": "GetVolumeLevel",
+      "argc": 3
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 19,
+      "method": "LockBox",
+      "argc": 5
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 20,
+      "method": "UnlockBox",
+      "argc": 2
+    },
+    {
+      "kind": 14,
+      "interface": "IDirect3DVolumeTexture9",
+      "slot": 21,
+      "method": "AddDirtyBox",
+      "argc": 2
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 0,
+      "method": "QueryInterface",
+      "argc": 3
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 1,
+      "method": "AddRef",
+      "argc": 1
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 2,
+      "method": "Release",
+      "argc": 1
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 3,
+      "method": "GetDevice",
+      "argc": 2
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 4,
+      "method": "SetPrivateData",
+      "argc": 5
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 5,
+      "method": "GetPrivateData",
+      "argc": 4
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 6,
+      "method": "FreePrivateData",
+      "argc": 2
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 7,
+      "method": "GetContainer",
+      "argc": 3
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 8,
+      "method": "GetDesc",
+      "argc": 2
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 9,
+      "method": "LockBox",
+      "argc": 4
+    },
+    {
+      "kind": 15,
+      "interface": "IDirect3DVolume9",
+      "slot": 10,
+      "method": "UnlockBox",
+      "argc": 1
+    }
+  ]
+}

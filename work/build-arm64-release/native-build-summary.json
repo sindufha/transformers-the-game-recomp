@@ -1,0 +1,422 @@
+{
+  "status": "native_archive_built",
+  "linked_executable": false,
+  "executed": false,
+  "playable": false,
+  "input_sha256": "5aa3bd490f5b97f614a154fdca98cae845bb62c783c48e56042f19ac14aeefd0",
+  "target": "aarch64-linux-android29",
+  "abi": "arm64-v8a",
+  "strict_header_sha256": "025e6b22059b96c01fd79a4337602d84df0f66ea6b26e2c7bfff8a0f7a837c7f",
+  "runtime_overlay_sha256": {
+    "transformers_x87.h": "26900e9b65b71b27e3962f5a248702a9ca5e1873cfefa33319ef48abf505dc77",
+    "transformers_runtime.h": "07e94c202a6be6f9807c79a86e3fb4154aeec7499a91785598e067db2f7ec9da"
+  },
+  "compiler": "Android (12285214, based on r522817b) clang version 18.0.2 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)",
+  "optimization": "2",
+  "compilation": [
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0000.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0000.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0000.c",
+      "fingerprint": "deb26d8e9cac2c4031913d23611197c405bb46e1ada3b815a397e65286983430",
+      "object_sha256": "8866393e6dac7e10b0379169e18d9189abc42b84464ab52d5ef776975cce0c31"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0001.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0001.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0001.c",
+      "fingerprint": "9f1af3c83a9e368e2873fbd1af48c87bc67b0af5f4f416b84be4897fa4028b31",
+      "object_sha256": "ce356284bd5d8f6f771717ed28fefe48fe0d1af2ace0826a03ea96b492fffa3d"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0002.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0002.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0002.c",
+      "fingerprint": "08ca4115d6c90990d459ffa1289b50af7bfd9ae63f7b5501e330ec06ed1d015e",
+      "object_sha256": "eec88c3a2a463a699b35b792e389dbb53047e2d5a4d411565612e72f32046cb4"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0003.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0003.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0003.c",
+      "fingerprint": "b06d181fa04e9c1090ebd5158d23303cb181833e219d43a86a2c5b9d951dd5b7",
+      "object_sha256": "abfbf709ac848f4dcbb64a5596645fceeda65332126a257d92050150189fe199"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0004.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0004.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0004.c",
+      "fingerprint": "54f2977143d6939502d890eeb77082ed1f278deb5dd5814d0359e1a1c38aae9d",
+      "object_sha256": "beb0ab450f1b87a51ee71b1324ee4b29e978cf4a312a2fe1f5df4761a6ffc520"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0005.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0005.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0005.c",
+      "fingerprint": "6fb415431619e95cc8bd120eb325cb06d3577c8a7868708413b93b25dfa3f23a",
+      "object_sha256": "f66e4c950b48fccceb4a535a7d173264655ce177de526f7eb4f96e5ba86794fe"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0006.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0006.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0006.c",
+      "fingerprint": "d7d3dc121a8d36e0547a89ef5eb2b30fb0dc15a82e13f8dbb23e650cb513241b",
+      "object_sha256": "8af8a59f0ee50d404d7579b3463a376d5bc3ccba10c6154b4ab3504c809d876d"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0007.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0007.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0007.c",
+      "fingerprint": "ed24be371b07b7ebb805e4d5435a10a26a07081320adba6e5e26c7bd4c3e8e80",
+      "object_sha256": "33ca19a64dddc89ee4b98676c5835ba7ac04924e7bb70752409d52358bd0df4c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0008.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0008.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0008.c",
+      "fingerprint": "087a70711e2dd786e1e9054a681f45e7087a519b8a6d156752c94067c131f0cf",
+      "object_sha256": "2066f659b85496a0e7a8abe349a49ff424e8c682be18cbd0c7994db53ded1517"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0009.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0009.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0009.c",
+      "fingerprint": "110237dd6876250f7263d11c2dd5a12040226b9c98e6d5a98df9b905d61dd50d",
+      "object_sha256": "47d62f02861dca2488cd9f06f18b2387b3883ce067876a5da38e91e6cb5a8198"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0010.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0010.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0010.c",
+      "fingerprint": "5c0095e20e4ac00fd1bad63dde04c9132a31047164424c7d4006928949653af8",
+      "object_sha256": "840a0b78bea22460a6d97ea227cb2c195bbb3fd1dc3d17b12a9c2b7cc463bfe5"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0011.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0011.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0011.c",
+      "fingerprint": "f30711a86d2a234d27a25a89605feb70c3edecc7e4972b45c964e517bb81d398",
+      "object_sha256": "7a9745706a1520135afe213f16fbfc12f74f74bebaa1e10ec233860f56e560fe"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0012.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0012.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0012.c",
+      "fingerprint": "df11f77dd0b199a2dc8e4f51f35c9dfc09967858b25558adfac123f5b672141f",
+      "object_sha256": "4be0f1d145274c09aaa0cd7818fe436bedf8787d8bbd89f3f3a78fd2e876a8d0"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0013.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0013.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0013.c",
+      "fingerprint": "17c0498e5a5cb238ae5fe54ccf479012b6e9016f9fdea3c9797c0398d0e39f7c",
+      "object_sha256": "91dfe6c25881932dca67d52884181cd887c46f1e9ef7a1faf2ca49cbc64ca54c"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0014.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0014.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0014.c",
+      "fingerprint": "eab27629cd75837f19ab5a6fab8c8bbc6d5902286601cf410380d4582848c33e",
+      "object_sha256": "4be35bce63ac17fdc3117948b850039a0575691eb2f3edd93348f7c6e01ddce6"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0015.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0015.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0015.c",
+      "fingerprint": "7a6025784cf00039b14b67788bf64b4ce523c4610b9a1d4ccfe8d25d8f4698ad",
+      "object_sha256": "3d763ffefbb7dd3c77e60ab6b735ae41ea110a65965de4be9614ea6c0a217ed3"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0016.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0016.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0016.c",
+      "fingerprint": "9a0390296c9d443c17cb275fadfce1c175fce335259915dd36c6c72229a3c6db",
+      "object_sha256": "d98c8bd2aea22bc853be33602ec8926f6cb64f5eed1ab95015572a2adb231a80"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0017.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0017.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0017.c",
+      "fingerprint": "a0fd7b6bd09c2844ff8d2c886539ba1a0ea4df4b3ec5e4d0e1e5e674224b10c8",
+      "object_sha256": "81551e04f8d7472341d60d386975f875fea711535f3fee89806ae182428cecc8"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0018.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0018.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0018.c",
+      "fingerprint": "4f3e2f22820c85f2673ea7bc702c590503abf563daf42ef4dd781aa5718d4306",
+      "object_sha256": "d15509742f512d0fa01acb8f0a84fff79c6bf8b06e20ae087c37d925174c0f44"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0019.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0019.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0019.c",
+      "fingerprint": "0b0f4bf4313d0ff12f95657b5314ad8f062096f0a17f4b23cf44a99484d56e82",
+      "object_sha256": "728a08a33b546a105ff3bf9053babbff340b7d45f68866f2661015e41d585834"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0020.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0020.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0020.c",
+      "fingerprint": "a48ba9e41daffbae6ecbe65f470f832564bf573c88da5679037f38d59655adf7",
+      "object_sha256": "f8c6d4d15868b2e9b9334247ddbc71e85d4beb90d46388ddca36ca838b3860f5"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0021.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0021.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0021.c",
+      "fingerprint": "3660923628bd35f51925f5545866e5099ed34a7b466bbf7c18816e6d57a17919",
+      "object_sha256": "bc2db201ca2987ec0d8deb3329418bed96876f8575698afee8e3f03628eb2dc7"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0022.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0022.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0022.c",
+      "fingerprint": "2f02ccce9a7eb4b33b36ae23e88cce33cbdb0408975bbeb029792b4ffb5c5d67",
+      "object_sha256": "f602f0e18de67dca64c7e5559bf0a239397da06f290a167936fce4fcaacd93b9"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0023.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0023.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0023.c",
+      "fingerprint": "743bfd1479f51a5ec7a14f89566f544f9b804e76f75d09632c635500fefc5fac",
+      "object_sha256": "682d2674b578aea1a4535ba0b1e1d9f38503a1529b7cfd778be7860b41d5a824"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0024.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0024.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0024.c",
+      "fingerprint": "4658998bf591992a1bced0507d29625b2b7d7a17922067c48658f4a49dc1e726",
+      "object_sha256": "f68a39aa7d950a4e98e94abbbcf4d01506497c36de45cc0e15b306a4dd6739a9"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0025.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0025.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0025.c",
+      "fingerprint": "f948f489e8366b93630b4cbd08f8877b2a6fef32beb02fdb045b5dbb1aaba892",
+      "object_sha256": "b5d343bb39e176c01e0da98e8f432d54cfb91ef4caad4f657bc0ec5245f0b81b"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0026.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0026.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0026.c",
+      "fingerprint": "0bfec5c65c04de17b260d5ef77d97b3e9578acbc018357be6c56e50566dfb780",
+      "object_sha256": "b0673e70a2eed7fce178817e7ca0153f200930f64c33e360c007be198ab6df64"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0027.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0027.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0027.c",
+      "fingerprint": "5cc8a3b55473ce6a73d6860dc137bbdb53f3fa7c66a35ff2c286315e98798e19",
+      "object_sha256": "3c84764e526d6d1e677ad1a8bdfc5e0ca0a982c7bf21a934130498a9eade9c92"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0028.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0028.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0028.c",
+      "fingerprint": "01430727487834a3562a22f593b6af77b92f2c43e550307d95de2eb9f5c703d2",
+      "object_sha256": "35d8d49ec551a8515074de4ad935c5527652fd95fccf7d5b57d48547361cb8a5"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0029.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0029.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0029.c",
+      "fingerprint": "45047fc900ea5524128e8df55978b3625e506755bf467538b53a6dd47550f808",
+      "object_sha256": "313981cc392057aac1299491c9d45551157800edfcde2c2c6fed63176b64c45a"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0030.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0030.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0030.c",
+      "fingerprint": "bc65d14d28faca2a360252b42fe6627510162dfd6135fd8678516f7af4c3901f",
+      "object_sha256": "9b20b373fd2d5d98e46b687a1fb20e8a7d38faaad99479e7a503f060123dcf82"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0031.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0031.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0031.c",
+      "fingerprint": "b18316afe5f2cc7fd371987662df777f59e66c4c50b0fe06ca1631327faeb92e",
+      "object_sha256": "00355c9a955af49186389df53f9d088acec6c3ff1d93193b8cdc09807c48c941"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0032.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0032.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0032.c",
+      "fingerprint": "f1ee419e7125f77162625cf5a3f8c3ac198397bd3c1414419c48ec5f14c0c28f",
+      "object_sha256": "d8f28fa52de05386d09bdeebd57cd8b748caccc37c13e9dbe4d91626ec119f9a"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0033.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0033.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0033.c",
+      "fingerprint": "d1214efe6e4a46e32999b0970bbe557b8e85c0553d725b639f024df30c28ea3a",
+      "object_sha256": "183e5c17393399509fb5b443889e25ba8eb83723aabce4672ab23b68773fce86"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0034.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0034.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0034.c",
+      "fingerprint": "e7be2294666183e67cb8a59ffe47a810b502b7585b6b98841a9324598c88fa2a",
+      "object_sha256": "d23595ae0b29518a4d04e6019bd91368b47ecbeac2d85722d56fc027a83280af"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0035.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0035.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0035.c",
+      "fingerprint": "ff3a36b172fb4816efbc3f8bd8cdba2852547ec7b889f620f7808e14c1015cd0",
+      "object_sha256": "db9839e3295bb01d53d5f7c1b3a7940c50b892bb31ff71418f86f11ff6bce476"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0036.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0036.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0036.c",
+      "fingerprint": "dc4a95a6a1c09c739ed2aa5b6784f5149089a96448f8a0e28d4de57fb6be88da",
+      "object_sha256": "73389a845750ef911942a9a096824534c0d1d080a9966f8701f24905f9f981e2"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0037.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0037.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0037.c",
+      "fingerprint": "fdd6f305cbf101a1892d54951b06be43508ebf14399fc1a1af5f84b577912351",
+      "object_sha256": "eeb0803bf4c9ad6e2e45c6deee82df612af7fa7f959663d063fbad66f2aadbd8"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0038.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0038.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0038.c",
+      "fingerprint": "2825ec39e1d491975490f4843d69d20115206a6973530c565490c2733063d802",
+      "object_sha256": "b6bf0da39eca6e08c8d5c2ff8516ebe08a30d8b81f47e68d0f8169ecdd343ed6"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0039.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0039.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0039.c",
+      "fingerprint": "a28bda99baef375c1c1a82566ef054a226c0d32955c0d10da620a0681694b08f",
+      "object_sha256": "fd13380fb3fe48e34acc1b839abcebd54131a434c10a4591c87ae606d3a46ad0"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0040.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0040.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0040.c",
+      "fingerprint": "a71efb5ab0a65b2df9a63ac3e3a9fff6dea2db7f7748f4c8ac81eb6fe8318b82",
+      "object_sha256": "ce7e8e637d0625269c5efa5261623b4b303e2a4ad53a17aae1725d99d39863a1"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0041.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0041.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0041.c",
+      "fingerprint": "903531821e2721b615d8ca7b4bfeb056f1231d8a2fb33d94dc243bfdbb43c787",
+      "object_sha256": "63581dc4e9de290d989b9dd0c9d8c7619669cfc1a26c82e4273517eb80a6692a"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0042.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0042.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0042.c",
+      "fingerprint": "4e8800c764c12274e55dbdb012123d57f7e9369c53b815e73603de0ba2c805e6",
+      "object_sha256": "87909ef3fbef20b84134f23eb6402010bb79b050b9108718ef00d60fa1a289d1"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0043.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0043.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0043.c",
+      "fingerprint": "2bd0bfa03c028e7a4573c00ba4149c6c82c757ea50327375dcfd6d21680ba23b",
+      "object_sha256": "0541eaf7d9c4fff578e1973f3805e1b27a247c4617094f3809fed0b1ccf998ef"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0044.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0044.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0044.c",
+      "fingerprint": "ddde717190bfb9d7badb60777445ba31b0f6a183e766b32d192461af5520e284",
+      "object_sha256": "898277a6a7ef0a776b2fe6c38a410e5730506051de38ff823dc2dc07ba919a3f"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0045.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0045.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0045.c",
+      "fingerprint": "1f3a332cccbee6243566c42c304a0a590848507ec8fb5d95412bb39d9f93aedb",
+      "object_sha256": "d9ae011e4ef74dd91070c580738d2e6d47d6c73f0e4d68ba39fc6e26d6df23b4"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0046.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0046.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0046.c",
+      "fingerprint": "ad92dd180dfd33c0175027783bf44b2f7266a7fd6bede2be0f9899c10ccc1321",
+      "object_sha256": "2a5a0ed42e2a03de878d8871da973b37bad1d93fd0bccb96d3e35185b198d317"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0047.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0047.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0047.c",
+      "fingerprint": "1bde7dafe7cd0d5947be726bbb44e88547d8a8b3b5fb316c364fb44e24fe0f61",
+      "object_sha256": "6c202c291dd71bf37940ca9de876711c411582de3c624233cda49d99c844ed22"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0048.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_0048.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_0048.c",
+      "fingerprint": "2df067f20a5c23b5c49bba5d7d03ffbb6c7da3caa988fa09d7a73d4eace4c26b",
+      "object_sha256": "bd7fcf66ec0ea81c6ab3c60dc57b26fb3b40b8c848d89b02605e6322c39231a1"
+    },
+    {
+      "exit_code": 0,
+      "response_file": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_dispatch.rsp",
+      "log": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\recomp_dispatch.log",
+      "source": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\lift-5aa3bd490f5b-target\\gen\\recomp_dispatch.c",
+      "fingerprint": "89fc93a87e2f04630418621a88dcff05a933fd3b9de78f574820dfcd03773439",
+      "object_sha256": "088ad9b79f0dded21e5ce7c1089b24efa85bbe8cdf08fd71c36417e6104bf7ec"
+    }
+  ],
+  "archive": "D:\\Transformers-The-Game_Win_EN_ISO-Version\\Transformers the game\\transformers-recompiled\\work\\build-arm64-release\\libtransformers_lift.a",
+  "archive_sha256": "7d8f7ab094946b779a87914847b961246b5cde334de72f0f6b3ae5c269e238a0",
+  "archive_bytes": 223547656,
+  "object_count": 50
+}
